@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.helloxkb.com/public/images/pdf/SM5-240UP-1.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
