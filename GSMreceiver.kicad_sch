@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "bbc92722-7b85-49e8-a662-589426df605a")
 	(paper "A4")
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FID"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,6 +23,8 @@
 			)
 			(property "Value" "Fiducial"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,47 +33,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Fiducial Marker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "fiducial marker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Fiducial*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Fiducial_0_1"
@@ -932,14 +948,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 45.72 191.77 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a50b225-d5e2-47fd-b129-da3fe96b35a1")
 		(property "Reference" "FID6"
 			(at 48.26 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,6 +969,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 48.26 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,29 +980,35 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 45.72 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 45.72 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -996,14 +1024,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 17.78 191.77 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e22fb2b-c430-4bc6-b52b-16ddc0751c43")
 		(property "Reference" "FID2"
 			(at 20.32 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,6 +1045,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 20.32 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,29 +1056,35 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 17.78 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 17.78 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 17.78 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1060,14 +1100,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 31.75 186.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d32999-2171-4ca9-a9d0-07411678e646")
 		(property "Reference" "FID3"
 			(at 34.29 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,6 +1121,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 34.29 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,29 +1132,35 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 31.75 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 31.75 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1124,14 +1176,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 31.75 191.77 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d669a248-5eb7-4c1b-b47c-01fbbbb9e91e")
 		(property "Reference" "FID4"
 			(at 34.29 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,6 +1197,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 34.29 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,29 +1208,35 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 31.75 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 31.75 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1188,14 +1252,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 45.72 186.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ac3739-667e-47c0-a0d2-ebd13be1b8f2")
 		(property "Reference" "FID5"
 			(at 48.26 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,6 +1273,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 48.26 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,29 +1284,35 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 45.72 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 45.72 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1252,14 +1328,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 17.78 186.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def1bdec-c8c1-4f6c-9584-69a51836cda0")
 		(property "Reference" "FID1"
 			(at 20.32 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,6 +1349,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 20.32 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,29 +1360,35 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 17.78 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 17.78 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 17.78 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1325,11 +1413,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 0 1.0000)
+			(color 0 255 0 1)
 		)
 		(uuid "0766f5ef-5d4e-4bb3-b73a-d8d6c795d8e3")
 		(property "Sheetname" "SIMcard2"
 			(at 251.46 122.4784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,6 +1429,8 @@
 		)
 		(property "Sheetfile" "SIMcard.kicad_sch"
 			(at 251.46 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,11 +1509,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 202 177 1.0000)
+			(color 255 202 177 1)
 		)
 		(uuid "22f2c349-a150-4465-81d9-a52b1080446a")
 		(property "Sheetname" "Power_input"
 			(at 173.99 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,6 +1525,8 @@
 		)
 		(property "Sheetfile" "Power_input.kicad_sch"
 			(at 173.99 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,11 +1575,13 @@
 			(type solid)
 		)
 		(fill
-			(color 218 200 255 1.0000)
+			(color 218 200 255 1)
 		)
 		(uuid "323c1cab-6834-44a8-8654-c93c581ecae7")
 		(property "Sheetname" "RFmodule"
 			(at 213.36 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,6 +1591,8 @@
 		)
 		(property "Sheetfile" "rf_module.kicad_sch"
 			(at 213.36 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,11 +1781,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 203 179 1.0000)
+			(color 255 203 179 1)
 		)
 		(uuid "5cf28641-501f-463b-b946-4f7e284f1557")
 		(property "Sheetname" "Power_3.3V (page 3)"
 			(at 224.79 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,6 +1797,8 @@
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
 			(at 224.79 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,11 +1847,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 148 253 1.0000)
+			(color 255 148 253 1)
 		)
 		(uuid "72572aab-46c4-4091-abb3-71d2258d66fa")
 		(property "Sheetname" "IN_OUT"
 			(at 34.29 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,6 +1863,8 @@
 		)
 		(property "Sheetfile" "IN_OUT.kicad_sch"
 			(at 34.29 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,11 +1933,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 0 0.9000)
+			(color 0 255 0 0.9)
 		)
 		(uuid "89f536d0-e840-48e9-a183-c973796594df")
 		(property "Sheetname" "SIMcard1"
 			(at 251.46 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,6 +1949,8 @@
 		)
 		(property "Sheetfile" "SIMcard.kicad_sch"
 			(at 251.46 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,11 +2029,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 208 191 1.0000)
+			(color 255 208 191 1)
 		)
 		(uuid "964271fa-514f-483e-a37b-f0a7ee41d4f8")
 		(property "Sheetname" "Power_4V"
 			(at 224.79 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,6 +2045,8 @@
 		)
 		(property "Sheetfile" "Power_4V.kicad_sch"
 			(at 224.79 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,11 +2105,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 133 135 1.0000)
+			(color 255 133 135 1)
 		)
 		(uuid "dda67959-ba02-403c-b23d-884c2febecd8")
 		(property "Sheetname" "MCU"
 			(at 97.79 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,6 +2121,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 97.79 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,11 +2321,13 @@
 			(type solid)
 		)
 		(fill
-			(color 151 255 244 1.0000)
+			(color 151 255 244 1)
 		)
 		(uuid "e36e7992-f69d-4591-9880-6ae3c36efe0e")
 		(property "Sheetname" "USB"
 			(at 34.29 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,6 +2337,8 @@
 		)
 		(property "Sheetfile" "USB.kicad_sch"
 			(at 34.29 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,11 +2386,13 @@
 			(type solid)
 		)
 		(fill
-			(color 98 251 255 1.0000)
+			(color 98 251 255 1)
 		)
 		(uuid "fe2eac04-096c-41cd-9d48-0aafc9873100")
 		(property "Sheetname" "RS485"
 			(at 27.94 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,6 +2402,8 @@
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
 			(at 27.686 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
