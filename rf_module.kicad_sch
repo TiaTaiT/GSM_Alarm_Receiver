@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f7625c7f-4f6a-4419-8045-47a9cf4f2f48")
@@ -8136,7 +8136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 212.3948 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8180,7 +8180,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805JRNPO9BN100"
+		(property "MPN" "CC0603JRNPO9BN100"
 			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8396,7 +8396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.7248 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8440,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805JRNPO9BN100"
+		(property "MPN" "CC0603JRNPO9BN100"
 			(at 186.69 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9244,7 +9244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 200.66 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -9288,7 +9288,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-070RL"
+		(property "MPN" "RC0603JR-070RL"
 			(at 200.66 35.56 90)
 			(hide yes)
 			(show_name no)

@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c380827c-74cf-4ccd-ae13-29e7cab43bd8")
@@ -1176,7 +1176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -1220,7 +1220,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-0751RL"
+		(property "MPN" "RC0603JR-0751RL"
 			(at 121.92 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -1459,7 +1459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.03 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -1503,7 +1503,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-0751RL"
+		(property "MPN" "RC0603JR-0751RL"
 			(at 113.03 97.79 90)
 			(hide yes)
 			(show_name no)

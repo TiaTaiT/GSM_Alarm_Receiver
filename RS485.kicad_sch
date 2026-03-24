@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "98306883-95c5-422e-a9f4-fa3ed25aa13b")
@@ -3000,6 +3000,7 @@
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 151.13 90.17 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3019,7 +3020,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 160.02 89.916 90)
+			(at 160.02 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
