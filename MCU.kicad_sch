@@ -3296,12 +3296,6 @@
 		(uuid "2958aadf-c17a-4309-8511-8bbc217af369")
 	)
 	(junction
-		(at 54.61 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45ea561d-488b-4f2e-8246-735037b6c75a")
-	)
-	(junction
 		(at 62.23 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3312,6 +3306,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e2335d-5991-4687-a378-12ff4bcf094b")
+	)
+	(junction
+		(at 45.72 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49222e7b-6787-4280-9e7e-bea453600b5e")
 	)
 	(junction
 		(at 82.55 83.82)
@@ -3338,12 +3338,6 @@
 		(uuid "77917c26-4caf-497f-9a7f-644fffd3ffdd")
 	)
 	(junction
-		(at 45.72 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77d6a721-d8f6-4ca4-ae05-5e43e27f8523")
-	)
-	(junction
 		(at 130.81 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3354,12 +3348,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a129c0ad-95a9-4e94-b2e6-85e3673538f6")
-	)
-	(junction
-		(at 54.61 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b196e551-6504-4584-b13d-e199bba54af5")
 	)
 	(junction
 		(at 82.55 93.98)
@@ -3409,31 +3397,13 @@
 		(color 0 0 0 0)
 		(uuid "ddbdfb36-8bd8-41be-89d8-107ec689b25f")
 	)
-	(junction
-		(at 45.72 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df9d0de5-c171-48b4-9a29-f99521885f60")
-	)
-	(junction
-		(at 36.83 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9906207-fbdd-4b1d-ad9c-43524a3b6837")
-	)
-	(junction
-		(at 36.83 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f967a580-8797-4076-819c-97c30dd04a59")
-	)
 	(no_connect
 		(at 113.03 116.84)
 		(uuid "1015a937-e168-4e09-af81-73b56b57c380")
 	)
 	(no_connect
-		(at 113.03 93.98)
-		(uuid "66811352-5bd6-4fbc-9277-8c0adb319765")
+		(at 148.59 66.04)
+		(uuid "1c0d5e4f-54c6-466e-82e0-f6b870a58a5c")
 	)
 	(no_connect
 		(at 113.03 114.3)
@@ -3450,10 +3420,6 @@
 	(no_connect
 		(at 146.05 166.37)
 		(uuid "9500146d-f392-498c-bfbb-8fe770be9189")
-	)
-	(no_connect
-		(at 148.59 66.04)
-		(uuid "c7d1a3c6-91ff-42b3-926b-3842c7bcecc1")
 	)
 	(no_connect
 		(at 113.03 96.52)
@@ -3645,16 +3611,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 34.29) (xy 54.61 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188f5b01-d988-46ef-8e08-1f8566eec3c8")
-	)
-	(wire
-		(pts
 			(xy 113.03 81.28) (xy 110.49 81.28)
 		)
 		(stroke
@@ -3692,16 +3648,6 @@
 			(type default)
 		)
 		(uuid "1a878092-68c2-419a-86b5-d15675ede1b3")
-	)
-	(wire
-		(pts
-			(xy 27.94 25.4) (xy 36.83 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b616481-3baf-4967-93df-a7135473331f")
 	)
 	(wire
 		(pts
@@ -3772,16 +3718,6 @@
 			(type default)
 		)
 		(uuid "205947a2-6307-475f-b2e2-e70093eb6a6d")
-	)
-	(wire
-		(pts
-			(xy 63.5 26.67) (xy 63.5 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235c9d30-90b7-4529-9f07-a63eddf26edc")
 	)
 	(wire
 		(pts
@@ -3935,26 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 45.72 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37304a76-3951-46c9-82c9-f1b6dbb4a29e")
-	)
-	(wire
-		(pts
-			(xy 27.94 35.56) (xy 36.83 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390d8fdf-41b9-440a-a38b-dc88e7e1075f")
-	)
-	(wire
-		(pts
 			(xy 82.55 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -4045,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 26.67) (xy 27.94 25.4)
+			(xy 40.64 26.67) (xy 40.64 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4105,16 +4021,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 54.61 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "519a29d2-ac12-4854-a929-74b01e9a3695")
-	)
-	(wire
-		(pts
 			(xy 212.09 130.81) (xy 156.21 130.81)
 		)
 		(stroke
@@ -4162,6 +4068,16 @@
 			(type default)
 		)
 		(uuid "58de25b3-0f5f-4248-b962-997537fec9da")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 212.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ceda70-ab65-4f61-a351-07d7c5e47d89")
 	)
 	(wire
 		(pts
@@ -4262,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "6f05064b-82b0-4b33-9387-b5601e2b756a")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fad53f5-1e23-48c7-9cd7-984472a7cd7e")
 	)
 	(wire
 		(pts
@@ -4375,16 +4301,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 45.72 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf456bc-06bd-4d2b-9159-eac135de1266")
-	)
-	(wire
-		(pts
 			(xy 74.93 127) (xy 74.93 138.43)
 		)
 		(stroke
@@ -4415,16 +4331,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 45.72 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f98905b-079d-4f32-9a41-3ae1e181e883")
-	)
-	(wire
-		(pts
 			(xy 86.36 154.94) (xy 86.36 157.48)
 		)
 		(stroke
@@ -4442,6 +4348,16 @@
 			(type default)
 		)
 		(uuid "81da7bb9-4c68-4890-942f-25acc957e1a3")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 49.53 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c4d356-6358-4246-83aa-5649b540d1b9")
 	)
 	(wire
 		(pts
@@ -4585,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 36.83 26.67)
+			(xy 49.53 25.4) (xy 49.53 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4602,16 +4518,6 @@
 			(type default)
 		)
 		(uuid "a6f09439-d927-4f68-91d8-cf4c4c0614a6")
-	)
-	(wire
-		(pts
-			(xy 63.5 34.29) (xy 63.5 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d43925-92da-488d-91dc-cfdb28d76ecc")
 	)
 	(wire
 		(pts
@@ -4655,7 +4561,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.29) (xy 36.83 35.56)
+			(xy 49.53 34.29) (xy 49.53 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4695,16 +4601,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 54.61 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ff9de4-b2ef-4dfe-9dc5-c4b22bb3a7da")
-	)
-	(wire
-		(pts
 			(xy 33.02 72.39) (xy 45.72 72.39)
 		)
 		(stroke
@@ -4712,46 +4608,6 @@
 			(type default)
 		)
 		(uuid "ba285092-2b03-4a36-a8f6-6b13153acc84")
-	)
-	(wire
-		(pts
-			(xy 54.61 25.4) (xy 63.5 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcdbbb27-23b6-4a6c-8817-213710d8a63c")
-	)
-	(wire
-		(pts
-			(xy 54.61 35.56) (xy 63.5 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1a1c50-e06c-4a72-b8fe-508d00189d21")
-	)
-	(wire
-		(pts
-			(xy 45.72 34.29) (xy 45.72 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6950ea-5535-4170-985c-04cc036ab2f4")
-	)
-	(wire
-		(pts
-			(xy 36.83 35.56) (xy 45.72 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c440d382-fc58-4a21-be24-2593f85e4095")
 	)
 	(wire
 		(pts
@@ -4835,6 +4691,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 25.4) (xy 45.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b0ca25-5744-4414-be3d-c30e3bed1033")
+	)
+	(wire
+		(pts
 			(xy 62.23 83.82) (xy 67.31 83.82)
 		)
 		(stroke
@@ -4905,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 34.29) (xy 27.94 35.56)
+			(xy 40.64 34.29) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4932,16 +4798,6 @@
 			(type default)
 		)
 		(uuid "e735bae3-ff1e-47a2-8ff4-f4d166aa4905")
-	)
-	(wire
-		(pts
-			(xy 45.72 25.4) (xy 54.61 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b8a0af-c348-4372-9ae4-fbe2ec5bd600")
 	)
 	(wire
 		(pts
@@ -5323,6 +5179,16 @@
 		)
 		(uuid "668651f3-f5f5-43f6-9390-b0fd197d3b10")
 	)
+	(label "VBUS_SENSING"
+		(at 110.49 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "698308e1-9e03-4e30-89a7-451d75bcd847")
+	)
 	(label "RS485_EN"
 		(at 151.13 101.6 0)
 		(effects
@@ -5362,6 +5228,16 @@
 			(justify right bottom)
 		)
 		(uuid "8df6ae17-f7cb-446e-8f90-159f5307ed5a")
+	)
+	(label "VBUS_SENSING"
+		(at 209.55 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "909dc6e3-abf9-45fb-99db-009f0d159aea")
 	)
 	(label "USB_D+"
 		(at 209.55 96.52 180)
@@ -5483,6 +5359,17 @@
 			(justify left)
 		)
 		(uuid "00a16d04-dac4-4204-ac14-ef61ada8154c")
+	)
+	(hierarchical_label "VBUS_SENSING"
+		(shape input)
+		(at 212.09 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09160d84-15d3-45b2-8d7b-04af3cf3c1c5")
 	)
 	(hierarchical_label "RF_POWER_EN"
 		(shape output)
@@ -5672,7 +5559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "057d12cc-f014-4aa7-b4e0-e47d34db98ee")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR074"
 			(at 133.35 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5732,7 +5619,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR071")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5854,7 +5741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f5ca06-92c9-403e-ad3f-90f6469c50ab")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5914,7 +5801,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5932,7 +5819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2f345a-3f97-4396-8a34-98940583c013")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5992,7 +5879,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6010,7 +5897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc20b9e-ef6c-4ab3-a492-872489b9ca75")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 50.8 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -6070,7 +5957,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6088,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ce00921-eecc-443d-8bf2-a1388e417010")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +6035,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e66516b-42c3-4c40-abf6-3632b3f88706")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 33.02 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6113,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6234,7 +6121,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 30.48 180)
+		(at 49.53 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6243,8 +6130,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e763899-6823-46f5-80a0-7206bdef2790")
-		(property "Reference" "C24"
-			(at 34.036 33.528 0)
+		(property "Reference" "C26"
+			(at 46.736 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6254,7 +6141,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 33.02 27.94 0)
+			(at 45.72 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6264,7 +6151,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 35.8648 26.67 0)
+			(at 48.5648 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6275,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 30.48 0)
+			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +6173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 30.48 0)
+			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6184,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 36.83 30.48 0)
+			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6195,7 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R8BB104"
-			(at 36.83 30.48 0)
+			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +6214,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6527,7 +6414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13a80ff9-5016-4468-bcb8-1e7f80fab12a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR069"
 			(at 109.22 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6588,7 +6475,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18da5ac2-0f93-452a-9929-c726b3f52a32")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 45.72 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6553,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6684,7 +6571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f11c080-fd81-47ad-a066-c2333452819d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 135.89 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6631,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR070")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6761,7 +6648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2091b3c6-e2bf-4092-b152-385bf567145e")
-		(property "Reference" "D18"
+		(property "Reference" "D16"
 			(at 101.6 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6858,7 +6745,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "D18")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6875,7 +6762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "247721f6-3a8a-494a-8483-c5a0f599e03c")
-		(property "Reference" "C28"
+		(property "Reference" "C27"
 			(at 68.072 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,7 +6846,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C28")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7080,7 +6967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f5e8600-fae7-4fbd-a863-0363ff77ec40")
-		(property "Reference" "C31"
+		(property "Reference" "C30"
 			(at 68.072 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,7 +7051,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -7183,7 +7070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306b59ac-c2b5-4645-865f-e5690dbe39e6")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 165.1 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7243,7 +7130,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f353f81-5ab1-4ed7-a25e-306a86f0a364")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR071"
 			(at 121.92 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7322,7 +7209,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR068")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7441,7 +7328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4196116c-8ab3-415f-bbe4-45b0789ebcee")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR072"
 			(at 125.73 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7502,7 +7389,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7779,7 +7666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cd7fcea-5622-494c-9ad6-32ee74cf75a5")
-		(property "Reference" "C33"
+		(property "Reference" "C32"
 			(at 124.714 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,7 +7750,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C33")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67f99a02-a38b-4e9b-be13-cb0825b57e8b")
-		(property "Reference" "C30"
+		(property "Reference" "C29"
 			(at 68.072 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,15 +7851,15 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C30")
+					(reference "C29")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 63.5 30.48 180)
+		(lib_id "power:GNDD")
+		(at 49.53 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7980,9 +7867,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "72d9f566-38bf-489b-a54c-915002f109cf")
-		(property "Reference" "C27"
-			(at 60.706 33.528 0)
+		(fields_autoplaced yes)
+		(uuid "71a132ae-598b-4283-b626-a9394baff3d8")
+		(property "Reference" "#PWR058"
+			(at 49.53 41.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7991,8 +7880,8 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 59.69 27.94 0)
+		(property "Value" "GNDD"
+			(at 49.53 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8001,8 +7890,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 62.5348 26.67 0)
+		(property "Footprint" ""
+			(at 49.53 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8013,7 +7902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 30.48 0)
+			(at 49.53 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,30 +7912,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 63.5 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 63.5 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R8BB104"
-			(at 63.5 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 49.53 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,15 +7924,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4af4f644-cf53-4ead-89e2-19003afd3be2")
-		)
-		(pin "2"
-			(uuid "fc12a90b-e311-4d55-8904-c2d549a081d0")
+			(uuid "0644c3ce-9c39-4b2a-af68-218b917f149c")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C27")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8082,7 +7946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a1ffab-7137-4ce2-b172-b8ec1c3e46d1")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 67.31 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +8043,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7883539a-efef-4989-b215-a838af876e62")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 43.18 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8225,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8587,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79c39f90-efc6-4ec2-8b4d-f4fe2cd8f602")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 52.07 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8647,7 +8511,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8675,7 +8539,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_2.54"
+		(property "Value" "UART1"
 			(at 173.736 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +8637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e1a56a0-66a4-4d0d-9e6b-79610b8b9c72")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 45.72 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8833,7 +8697,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8850,7 +8714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ebfc2bf-268b-4443-ab6d-bb60271da076")
-		(property "Reference" "D17"
+		(property "Reference" "D15"
 			(at 90.17 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8947,7 +8811,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "D17")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9057,107 +8921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 45.72 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8358714b-8cb2-4282-bac2-6d391cf0ca66")
-		(property "Reference" "C25"
-			(at 42.926 33.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 41.91 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 44.7548 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 45.72 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R8BB104"
-			(at 45.72 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f0e2834-ead7-492c-bc0e-468e7df5ebb7")
-		)
-		(pin "2"
-			(uuid "e0cddaba-330c-4f54-b3d9-7887714c0874")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 115.57 0)
 		(mirror y)
@@ -9169,7 +8932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "855ee5a3-6df3-45bc-b250-ae19279870a3")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR077"
 			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9230,7 +8993,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR073")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9351,10 +9114,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89392fd0-486d-44c7-b8e7-3f768ff15c36")
 		(property "Reference" "J10"
-			(at 28.575 62.23 0)
+			(at 29.464 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9363,8 +9125,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 28.575 64.77 0)
+		(property "Value" "SWD"
+			(at 24.384 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9464,7 +9226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89444025-14d5-4029-8bd8-9c77cbb32a47")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR053"
 			(at 41.91 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9524,7 +9286,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92020ac3-4d6d-4650-8fe4-987e2cf42927")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 74.93 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9602,7 +9364,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9673b5de-8860-49d8-b55f-d4c05ef4eff8")
-		(property "Reference" "C29"
+		(property "Reference" "C28"
 			(at 67.818 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9806,7 +9568,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C29")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9823,7 +9585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "994b2c3e-c075-4f0a-8248-ece2ecf5697e")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 55.88 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +9682,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10109,7 +9871,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 27.94 30.48 180)
+		(at 40.64 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10118,8 +9880,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a177f3f2-b274-404d-91b2-bb2568610130")
-		(property "Reference" "C23"
-			(at 25.146 33.528 0)
+		(property "Reference" "C25"
+			(at 37.846 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10129,7 +9891,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 24.13 27.94 0)
+			(at 36.83 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10139,7 +9901,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 26.9748 26.67 0)
+			(at 39.6748 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10150,7 +9912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 30.48 0)
+			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10161,7 +9923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 27.94 30.48 0)
+			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10172,7 +9934,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 27.94 30.48 0)
+			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10183,7 +9945,7 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R8BB104"
-			(at 27.94 30.48 0)
+			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +9964,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10220,7 +9982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5a8116b-7186-41c2-9ff8-41fe9bb703e3")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 63.5 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -10280,7 +10042,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10391,107 +10153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 54.61 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a737e759-0c5e-42ed-a27c-7b5c9b5063a2")
-		(property "Reference" "C26"
-			(at 51.816 33.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 50.8 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 53.6448 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 54.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R8BB104"
-			(at 54.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77469b11-3534-489f-af7b-2db3f3a4ea84")
-		)
-		(pin "2"
-			(uuid "0c2a38ca-521c-416d-bcc7-88d1e7ea5b0e")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 205.74 48.26 0)
 		(unit 1)
@@ -10502,7 +10163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a83b77db-a0e5-4a0c-b948-6da1c523dd56")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR078"
 			(at 205.74 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10563,7 +10224,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR075")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -10581,7 +10242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab35258a-127f-404d-b448-5c38b66b59fa")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 135.4933 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +10467,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -10927,7 +10588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3b68cae-9645-4a17-85af-1b9df2912ceb")
-		(property "Reference" "D16"
+		(property "Reference" "D14"
 			(at 78.74 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11024,7 +10685,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "D16")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -11042,7 +10703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d4ed17-c9d0-4129-98b0-94230776ab92")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11102,7 +10763,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -11220,7 +10881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be0817a4-4620-4965-b8f6-3b846bd8a22b")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR070"
 			(at 121.92 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11281,7 +10942,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -11298,7 +10959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be4b5fa6-4a53-47a6-8abb-9068ab942544")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 91.44 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11359,7 +11020,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -11484,7 +11145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6bdd365-a762-4421-b300-3b33de452815")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR075"
 			(at 158.75 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11544,7 +11205,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR072")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11562,7 +11223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c96d6209-9747-40a0-92f1-36cc2fccfd5d")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 97.79 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11622,7 +11283,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11291,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 45.72 36.83 0)
+		(at 40.64 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11640,8 +11301,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5b4a92-ba9a-4802-a3af-8eccd80f93ae")
-		(property "Reference" "#PWR054"
-			(at 45.72 43.18 0)
+		(property "Reference" "#PWR051"
+			(at 40.64 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +11313,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 45.72 40.64 0)
+			(at 40.64 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11662,7 +11323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 36.83 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +11334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 36.83 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11684,7 +11345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 45.72 36.83 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +11361,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11822,7 +11483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6736013-d140-47a8-a730-18ef590c0adb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 43.18 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11882,7 +11543,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11899,7 +11560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfed6094-7975-4780-a4aa-f59a284b61a6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 41.91 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11960,7 +11621,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11977,7 +11638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9055d6f-652a-4590-a236-9426daf45194")
-		(property "Reference" "C32"
+		(property "Reference" "C31"
 			(at 117.602 23.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12061,7 +11722,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/dda67959-ba02-403c-b23d-884c2febecd8"
-					(reference "C32")
+					(reference "C31")
 					(unit 1)
 				)
 			)

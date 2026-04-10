@@ -2443,6 +2443,86 @@
 		)
 		(uuid "f99e01c8-8143-44df-8b5d-27564333c22a")
 	)
+	(label "RELAY1A"
+		(at 153.67 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f87d84e-6139-4bc2-b358-31f31820ce38")
+	)
+	(label "RELAY4A"
+		(at 153.67 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7071d389-7329-4537-8008-61f989a49201")
+	)
+	(label "RELAY2A"
+		(at 153.67 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7893be09-d410-43f8-9f87-74b9998e1373")
+	)
+	(label "RELAY4B"
+		(at 153.67 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7de5e5ab-35cb-4c5d-b1b1-206fa5892721")
+	)
+	(label "RELAY3B"
+		(at 153.67 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f9778cb-ef01-4afa-ae5a-5327dd22d866")
+	)
+	(label "RELAY3A"
+		(at 153.67 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97dada3a-2022-46fd-ab9e-9de117afed79")
+	)
+	(label "RELAY2B"
+		(at 153.67 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a48b9270-472e-455b-a3a4-e031214416ec")
+	)
+	(label "RELAY1B"
+		(at 153.67 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4bf4681-f040-4e62-86c3-c8aefe2e952a")
+	)
 	(hierarchical_label "CONTROL_1"
 		(shape input)
 		(at 58.42 36.83 180)
@@ -2728,7 +2808,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DG390-5.0-02P"
+		(property "Value" "Relay_3"
 			(at 196.85 97.7901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3242,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 125.73 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +3460,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DG390-5.0-02P"
+		(property "Value" "Relay_2"
 			(at 196.85 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3483,7 +3563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DG390-5.0-02P"
+		(property "Value" "Relay_1"
 			(at 196.85 36.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "2.7k"
 			(at 73.66 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3799,7 +3879,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 125.73 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4095,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 125.73 131.064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4783,7 @@
 				)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "2.7k"
 			(at 73.66 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5338,7 @@
 				)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "2.7k"
 			(at 73.66 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "2.7k"
 			(at 73.66 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5746,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 125.73 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +5854,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DG390-5.0-02P"
+		(property "Value" "Relay_4"
 			(at 196.85 128.2701 0)
 			(show_name no)
 			(do_not_autoplace no)

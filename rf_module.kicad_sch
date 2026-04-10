@@ -6488,7 +6488,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 171.45 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7239,7 +7239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k6"
+		(property "Value" "5.6k"
 			(at 61.214 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,7 +7343,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FYLS-0805URC"
+		(property "Value" "STATUS"
 			(at 196.85 112.0774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +8677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FYLS-0805URC"
+		(property "Value" "NETLIGHT"
 			(at 245.11 112.0774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9549,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 219.71 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +9858,7 @@
 				)
 			)
 		)
-		(property "Value" "HJ-SMA405"
+		(property "Value" "RF Antenna"
 			(at 253.4804 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)

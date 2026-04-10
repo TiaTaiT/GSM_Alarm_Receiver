@@ -279,6 +279,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -419,10 +574,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD5Zxx"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
 			)
@@ -431,28 +583,43 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "ESD5Zxx"
-				(at 0 -2.54 0)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -460,9 +627,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -473,7 +641,7 @@
 					)
 				)
 			)
-			(property "Description" "ESD Protection Diode, SOD-523"
+			(property "ki_keywords" "usb ethernet video"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -484,7 +652,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "esd tvs unidirectional diode"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -495,33 +663,78 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D?SOD?523*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESD5Zxx_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -533,10 +746,143 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -544,11 +890,46 @@
 					)
 				)
 			)
-			(symbol "ESD5Zxx_1_1"
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "K"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -564,9 +945,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "A"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -574,6 +955,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -712,84 +1165,102 @@
 		)
 	)
 	(junction
-		(at 120.65 97.79)
+		(at 106.68 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b1d65bc-35e9-4e87-9f0a-8ccb718fe0b2")
+		(uuid "482e75ca-aa26-46ed-9f8a-9e68fa82f0b2")
 	)
 	(junction
-		(at 128.27 95.25)
+		(at 128.27 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1659431-09bd-4c62-99ec-fee2de416db3")
+		(uuid "588f3c19-bb2a-4f88-a0c4-94f4a1c6ba22")
 	)
-	(no_connect
-		(at 184.15 87.63)
-		(uuid "e1c3f59c-4dba-474a-aa19-365dcc4441bc")
+	(junction
+		(at 163.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6962841f-5b89-40d5-ac67-a005a5449cc3")
+	)
+	(junction
+		(at 93.98 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f96bb6e-dbff-4a95-a5f7-db639ab909ea")
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 109.22 97.79)
+			(xy 133.35 95.25) (xy 184.15 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1aabcb35-d79f-461f-9bc5-01f3dfbfcd32")
+		(uuid "0f0d1460-9ba1-43a7-bd4e-55d1098b08fb")
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 175.26 88.9)
+			(xy 83.82 48.26) (xy 106.68 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d64bbcc-4751-4b38-a5ec-cad6d55117db")
+		(uuid "1619b829-0c39-45b4-a311-e83b1059372a")
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 128.27 81.28)
+			(xy 128.27 48.26) (xy 163.83 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2851106a-8ab6-4dfb-9abe-2679b9eb3635")
+		(uuid "19121f2d-5ac3-45d6-8fd5-948aba42e2fd")
 	)
 	(wire
 		(pts
-			(xy 120.65 110.49) (xy 120.65 111.76)
+			(xy 128.27 102.87) (xy 128.27 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2db052cc-41ec-40ea-8436-ef51132eeeba")
+		(uuid "2025e367-9865-4040-8b08-09bc1f170c6f")
 	)
 	(wire
 		(pts
-			(xy 179.07 80.01) (xy 179.07 90.17)
+			(xy 184.15 48.26) (xy 184.15 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39df55a3-c309-45c0-bff2-3b9c7406d583")
+		(uuid "260586bf-ed39-4c69-b2ac-4be8f59ac392")
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 120.65 78.74)
+			(xy 157.48 85.09) (xy 173.99 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b4676e1-6e4b-4d5a-8204-edc9d60bef41")
+		(uuid "31e5cb5a-d621-4bc1-8a3c-7371c764bbb9")
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 184.15 92.71)
+			(xy 121.92 48.26) (xy 128.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36031b83-973c-4648-8af8-287685e11b24")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 184.15 92.71)
 		)
 		(stroke
 			(width 0)
@@ -799,47 +1270,47 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 95.25) (xy 184.15 95.25)
+			(xy 163.83 59.69) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67312118-2a29-430b-b28c-10983b397494")
+		(uuid "44b9b055-84d0-4470-8861-d481585bba8f")
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 128.27 95.25)
+			(xy 157.48 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ce5eec-c983-4ee4-adfd-23e8fddb7925")
+		(uuid "56ef97b7-bf7f-4fc5-97d5-7940140a4b50")
 	)
 	(wire
 		(pts
-			(xy 168.91 80.01) (xy 179.07 80.01)
+			(xy 184.15 48.26) (xy 163.83 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7356a21a-1d97-4afb-a51e-b6cbedcbec60")
+		(uuid "61c39b4c-c4b0-4c1e-bbb9-c18d57ebf131")
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 184.15 97.79)
+			(xy 85.09 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd95211-45cc-4e41-bc01-0fd740157ee7")
+		(uuid "7ab553d3-0128-4074-817e-fe77905b4751")
 	)
 	(wire
 		(pts
-			(xy 179.07 90.17) (xy 184.15 90.17)
+			(xy 177.8 90.17) (xy 184.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -849,17 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 128.27 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "949ec5bc-7b72-4cf6-9805-6907019a351d")
-	)
-	(wire
-		(pts
-			(xy 161.29 80.01) (xy 160.02 80.01)
+			(xy 149.86 76.2) (xy 148.59 76.2)
 		)
 		(stroke
 			(width 0)
@@ -869,17 +1330,47 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 118.11 95.25)
+			(xy 93.98 59.69) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fd58b05-67ca-4d9a-9906-634d6450365e")
+		(uuid "9d141b19-8d86-4465-80c6-3373e4fba28f")
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 175.26 92.71)
+			(xy 133.35 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d31a28e-3336-4666-9953-59ad2789720e")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5af28de-b09c-40eb-9b97-065150c32706")
+	)
+	(wire
+		(pts
+			(xy 85.09 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7839edc-6cc8-42d8-9e92-6e228ef0a1bc")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 160.02 88.9)
+			(xy 149.86 85.09) (xy 148.59 85.09)
 		)
 		(stroke
 			(width 0)
@@ -899,33 +1390,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 128.27 95.25)
+			(xy 93.98 48.26) (xy 93.98 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1701ae0-eab0-4320-aba7-d72b6f9127ec")
-	)
-	(wire
-		(pts
-			(xy 120.65 102.87) (xy 120.65 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c207e693-528d-4a1d-a11e-6ce3e7fd8112")
-	)
-	(wire
-		(pts
-			(xy 116.84 97.79) (xy 120.65 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0d8b69-04b6-4327-be1e-28d64fe7d42e")
+		(uuid "b82205ef-e962-47c4-8b38-6adf4ef41ad2")
 	)
 	(wire
 		(pts
@@ -939,6 +1410,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced68715-9f04-4e17-90f4-47aa99f2da21")
+	)
+	(wire
+		(pts
 			(xy 167.64 100.33) (xy 167.64 111.76)
 		)
 		(stroke
@@ -947,25 +1428,95 @@
 		)
 		(uuid "d2d7773f-194b-4e9a-9831-6c362f1a3779")
 	)
-	(label "D+"
-		(at 135.89 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 128.27 48.26) (xy 128.27 90.17)
 		)
-		(uuid "1734e9c2-1a21-4d18-8ab5-f520bd99e0ea")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54f4e4a-7b22-4e25-b11f-6667e19d8350")
 	)
-	(label "D-"
-		(at 135.89 95.25 0)
+	(wire
+		(pts
+			(xy 106.68 48.26) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb461dc1-7e1a-4eef-8c35-1c59b94dd4c9")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7a1104-0bd9-4a84-9734-9918dbfb1ace")
+	)
+	(wire
+		(pts
+			(xy 163.83 48.26) (xy 163.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febf1826-8eeb-44e2-af17-da9bd9d8da56")
+	)
+	(label "USB_CC2"
+		(at 161.29 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6f21160c-74a3-4bae-a9ca-87126b5d3afe")
+		(uuid "25eaeb31-1258-441d-8ef8-e48403c3b26f")
+	)
+	(label "USB_CC1"
+		(at 161.29 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3473b92c-563e-4b78-a377-2869c73f79ba")
+	)
+	(label "USB_VBUS"
+		(at 166.37 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b53a5b8-820d-481f-8373-b8ea36c72efd")
+	)
+	(label "USB_P"
+		(at 151.13 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa84bf22-dc76-4510-8af1-3a1ee9bed6fb")
+	)
+	(label "USB_N"
+		(at 151.13 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6bf3baa-0064-49fe-b1a2-0ab84f9e5f3d")
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
@@ -977,6 +1528,17 @@
 			(justify right)
 		)
 		(uuid "14d533bd-29b6-439c-a055-d41da869ad5c")
+	)
+	(hierarchical_label "VBUS_SENSING"
+		(shape output)
+		(at 83.82 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40afe722-e23b-4aba-a25f-c64e96fd5341")
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
@@ -991,7 +1553,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 160.02 88.9 270)
+		(at 148.59 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1001,8 +1563,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f8d9d8-8884-432a-bbf0-d68b0e72e799")
-		(property "Reference" "#PWR031"
-			(at 153.67 88.9 0)
+		(property "Reference" "#PWR032"
+			(at 142.24 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1013,7 +1575,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 156.21 88.9 0)
+			(at 144.78 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1023,7 +1585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 88.9 0)
+			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1034,7 +1596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 88.9 0)
+			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1045,7 +1607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 160.02 88.9 0)
+			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1061,7 +1623,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1069,7 +1631,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 120.65 83.82 0)
+		(at 128.27 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1078,9 +1640,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e41d397-5ba4-4fc5-9e59-a14c82f2914f")
-		(property "Reference" "#PWR028"
-			(at 120.65 90.17 0)
+		(uuid "327ef168-04ad-49ac-8982-eeea5f310021")
+		(property "Reference" "#PWR030"
+			(at 128.27 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1091,7 +1653,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 120.65 87.63 0)
+			(at 128.27 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1101,7 +1663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 83.82 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 83.82 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1123,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 120.65 83.82 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1134,7 +1696,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "0fbd720c-bfce-4c77-9bae-e7171b310626")
+			(uuid "b287bf86-bd37-4466-bf32-733ed6f69edd")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 93.98 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34719682-a2b6-46e2-9022-db51876e737e")
+		(property "Reference" "#PWR028"
+			(at 93.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 93.98 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccff258a-a3fa-4f9f-aa09-38291e3bea26")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -1147,7 +1787,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 95.25 90)
+		(at 118.11 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1155,9 +1795,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4e283fdd-70ee-41ad-b4b2-5b8e40d4cff1")
+		(fields_autoplaced yes)
+		(uuid "6b1e2052-5dda-48db-9c94-1a62341bae27")
 		(property "Reference" "R23"
-			(at 119.634 92.71 90)
+			(at 118.11 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1166,8 +1807,8 @@
 				)
 			)
 		)
-		(property "Value" "51"
-			(at 124.206 92.71 90)
+		(property "Value" "100k"
+			(at 118.11 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1176,8 +1817,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 121.92 97.028 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 118.11 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1188,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 95.25 0)
+			(at 118.11 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1199,7 +1840,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 95.25 0)
+			(at 118.11 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1210,7 +1851,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 121.92 95.25 90)
+			(at 118.11 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1220,8 +1861,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603JR-0751RL"
-			(at 121.92 95.25 90)
+		(property "MPN" "RC0805JR-07100KL"
+			(at 118.11 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1232,10 +1873,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b73f35bf-1670-4bf3-9163-1bd8267082a1")
+			(uuid "4eefb4ef-2daa-478c-8e12-b92ff4e2cc9e")
 		)
 		(pin "2"
-			(uuid "e0516019-6d86-4b57-bce6-d412a46e7ae6")
+			(uuid "f7ffa64e-5b7e-47f2-9b39-884cb4acba11")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -1247,8 +1888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 128.27 85.09 90)
+		(lib_id "Device:C")
+		(at 93.98 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1256,33 +1897,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70fbafd6-2dea-406e-b2bd-f5bdfab4e89c")
-		(property "Reference" "D10"
-			(at 130.81 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD321DYAR"
-			(at 130.81 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 132.715 85.09 0)
-			(hide yes)
+		(uuid "76fd0a87-5fa7-4c47-ada6-3221d24742ab")
+		(property "Reference" "C14"
+			(at 91.186 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1291,9 +1908,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 128.27 85.09 0)
-			(hide yes)
+		(property "Value" "100nF"
+			(at 91.186 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1302,89 +1918,8 @@
 				)
 			)
 		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 128.27 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 128.27 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD321DYAR"
-			(at 128.27 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4424dda7-345a-41ab-adaa-a10e3107ef96")
-		)
-		(pin "2"
-			(uuid "e38e4cc0-0ae1-4dbf-bbcb-019a092e4493")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 120.65 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fa75158-d6fd-4a0d-b47a-7f78787569bd")
-		(property "Reference" "#PWR029"
-			(at 120.65 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 120.65 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 111.76 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 93.0148 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1395,7 +1930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 111.76 0)
+			(at 93.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1405,8 +1940,30 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 120.65 111.76 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 93.98 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R8BB104"
+			(at 93.98 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1974,192 @@
 			)
 		)
 		(pin "1"
-			(uuid "c03d0f51-70a5-4021-a8d8-3342f7900173")
+			(uuid "8df64f74-cc0b-4543-af4d-fcddc57b1903")
+		)
+		(pin "2"
+			(uuid "78ea8b17-04d8-4aa0-9fca-86aa8bdb9ac9")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a5d0a49-6ce1-46f4-b237-09c5d33557b8")
+		(property "Reference" "R22"
+			(at 109.22 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 109.22 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.902 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805JR-0747KL"
+			(at 106.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77bf3de0-355b-494b-99ca-f892732936ef")
+		)
+		(pin "2"
+			(uuid "d6168df1-60e9-4546-887a-e174c980135b")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 106.68 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81b04fbb-4c9d-4a1a-a2cb-90d9d3209f93")
+		(property "Reference" "#PWR029"
+			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 106.68 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd3b6e9a-5be0-457b-b546-f932b11c76f9")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -1429,8 +2171,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 113.03 97.79 90)
+		(lib_id "Device:C")
+		(at 163.83 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1438,9 +2180,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bb8764a3-3018-4d0b-b964-0b75b1c82ad7")
-		(property "Reference" "R22"
-			(at 111.252 100.33 90)
+		(uuid "89f0abc2-9bc9-452a-96cd-9d7691ed0ad7")
+		(property "Reference" "C15"
+			(at 161.036 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1449,8 +2191,8 @@
 				)
 			)
 		)
-		(property "Value" "51"
-			(at 115.57 100.33 90)
+		(property "Value" "100nF"
+			(at 161.036 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1459,8 +2201,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 113.03 99.568 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 162.8648 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1471,7 +2213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 97.79 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,8 +2223,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 113.03 97.79 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1493,7 +2235,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 113.03 97.79 90)
+			(at 163.83 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1503,8 +2245,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603JR-0751RL"
-			(at 113.03 97.79 90)
+		(property "MPN" "CC0805KRX7R8BB104"
+			(at 163.83 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1515,15 +2257,212 @@
 			)
 		)
 		(pin "1"
-			(uuid "385030eb-423a-478c-a496-6f7efc48e26c")
+			(uuid "5b4ac572-c193-4433-bdc8-f7d0b65981c4")
 		)
 		(pin "2"
-			(uuid "f9a01f1e-bbb6-4de5-a08e-c9dce13b5661")
+			(uuid "1a176bbe-c8a7-4b2d-9f57-7eae53cc12ba")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
-					(reference "R22")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 163.83 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cf66a3a-c15d-449f-8590-16c519a27d2c")
+		(property "Reference" "#PWR033"
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 163.83 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 163.83 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0c009b4-bfb7-4a59-b958-ed665726cfed")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 128.27 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bd90047-6068-4f6f-aeeb-778067d251f4")
+		(property "Reference" "U8"
+			(at 126.6189 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 126.6189 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 127 103.505 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20ef73d4-04f9-42ad-9c30-812fb0b141eb")
+		)
+		(pin "2"
+			(uuid "ea133e0c-3dae-4622-b234-1fe0646365c3")
+		)
+		(pin "5"
+			(uuid "d5f590cf-37f0-436c-ad23-61a40ee5ba3a")
+		)
+		(pin "3"
+			(uuid "9d81b9ff-ba00-45ed-b4d7-153fef4bb988")
+		)
+		(pin "4"
+			(uuid "968a741e-3423-44c6-aee3-91defe617ada")
+		)
+		(pin "6"
+			(uuid "87be3a6f-ba62-445a-b212-f23945d55440")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1541,7 +2480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdca3700-ea9c-497b-9f75-84043f131b7f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1601,7 +2540,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1609,7 +2548,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 88.9 270)
+		(at 153.67 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1619,7 +2558,7 @@
 		(dnp no)
 		(uuid "c1d8fb96-11f1-4235-8998-63406f1e090e")
 		(property "Reference" "R25"
-			(at 163.322 86.614 90)
+			(at 151.892 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1629,8 +2568,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
-			(at 163.576 91.44 90)
+		(property "Value" "5.1k"
+			(at 152.146 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1641,7 +2580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 87.122 90)
+			(at 153.67 83.312 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +2591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 88.9 0)
+			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1663,7 +2602,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 88.9 0)
+			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1674,7 +2613,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 165.1 88.9 90)
+			(at 153.67 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,7 +2624,7 @@
 			)
 		)
 		(property "MPN" "RC0805JR-075K1L"
-			(at 165.1 88.9 90)
+			(at 153.67 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1712,7 +2651,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 80.01 270)
+		(at 153.67 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1722,7 +2661,7 @@
 		(dnp no)
 		(uuid "db919955-2635-412e-b060-e017cf7c2c84")
 		(property "Reference" "R24"
-			(at 163.322 77.724 90)
+			(at 151.892 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1732,8 +2671,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
-			(at 163.576 82.55 90)
+		(property "Value" "5.1k"
+			(at 152.146 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1744,7 +2683,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 78.232 90)
+			(at 153.67 74.422 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 80.01 0)
+			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +2705,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 80.01 0)
+			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1777,7 +2716,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 165.1 80.01 90)
+			(at 153.67 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +2727,7 @@
 			)
 		)
 		(property "MPN" "RC0805JR-075K1L"
-			(at 165.1 80.01 90)
+			(at 153.67 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1808,110 +2747,6 @@
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 120.65 106.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2881b03-17eb-42fe-bbba-a23f456b4755")
-		(property "Reference" "D9"
-			(at 123.19 105.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD321DYAR"
-			(at 123.19 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 116.205 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 120.65 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 120.65 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 120.65 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD321DYAR"
-			(at 120.65 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fd98ff2-f11b-4203-b535-093e0be7092a")
-		)
-		(pin "2"
-			(uuid "fba599a0-8700-4409-b7f0-f4833ff9714d")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -1940,7 +2775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "USB-C"
 			(at 191.77 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,7 +2870,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 160.02 80.01 270)
+		(at 148.59 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2045,8 +2880,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcef709e-9873-4cdc-bf39-0e07e6ee2893")
-		(property "Reference" "#PWR030"
-			(at 153.67 80.01 0)
+		(property "Reference" "#PWR031"
+			(at 142.24 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,7 +2892,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 156.21 80.01 0)
+			(at 144.78 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2067,7 +2902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 80.01 0)
+			(at 148.59 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2078,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 80.01 0)
+			(at 148.59 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 160.02 80.01 0)
+			(at 148.59 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2105,7 +2940,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/e36e7992-f69d-4591-9880-6ae3c36efe0e"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

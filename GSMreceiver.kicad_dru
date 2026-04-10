@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "IN/OUT CONNECTORS COURTYARD EXCEPTION"
+    (constraint courtyard_clearance (min -2mm))
+    (condition "A.Reference == 'J1' || A.Reference == 'J2' || A.Reference == 'J3' || A.Reference == 'J4' || A.Reference == 'J7' || A.Reference == 'J12'")
+)

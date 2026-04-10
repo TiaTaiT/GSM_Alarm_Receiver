@@ -643,6 +643,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ30CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ30CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ30CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ30CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SS26"
 			(pin_numbers
 				(hide yes)
@@ -1265,6 +1443,12 @@
 		(uuid "963a3437-94e1-43cd-a44f-40bea78a4e38")
 	)
 	(junction
+		(at 187.96 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2ace78e-223b-4971-a93b-46e6c5c95205")
+	)
+	(junction
 		(at 165.1 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1294,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 187.96 85.09)
+			(xy 200.66 78.74) (xy 200.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 78.74) (xy 187.96 78.74)
+			(xy 207.01 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1374,6 +1558,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 76.2) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dc836b-8046-4396-a363-a0fbe2f22cb6")
+	)
+	(wire
+		(pts
 			(xy 134.62 100.33) (xy 149.86 100.33)
 		)
 		(stroke
@@ -1394,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 76.2) (xy 207.01 76.2)
+			(xy 181.61 76.2) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1441,6 +1635,16 @@
 			(type default)
 		)
 		(uuid "9c5b8424-e090-4f2f-8833-b2b1c5f611a0")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e240e6-b211-4d63-9458-9cc11fe8b44a")
 	)
 	(wire
 		(pts
@@ -1494,6 +1698,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d700e274-7f88-4d73-bd1a-bd72360ddd72")
+	)
+	(wire
+		(pts
 			(xy 120.65 110.49) (xy 120.65 111.76)
 		)
 		(stroke
@@ -1524,13 +1738,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 134.62 91.44)
+			(xy 134.62 90.17) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e87d634c-448a-45e4-814e-8eb430f2dc54")
+	)
+	(label "Vsupply"
+		(at 193.04 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7c8945b-d319-45f5-8e27-7384e3de38ca")
 	)
 	(hierarchical_label "VBAT_OUT"
 		(shape output)
@@ -1566,7 +1790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f76ee9a-6c16-4b82-aa0e-5e93e2de70b9")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR081"
 			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1626,7 +1850,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR078")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -1851,7 +2075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e5076b-5e7d-4d11-a537-68998026d2cb")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR079"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1911,163 +2135,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 134.62 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cd20cf1-9f79-4386-a168-1d9a2b498d9c")
-		(property "Reference" "#PWR079"
-			(at 134.62 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 131.572 84.836 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 134.62 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f389bf36-771c-4bca-ad8a-3a23d735c5d5")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 187.96 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f0dc527-7ae0-42d5-a8b6-7ba71c6271cb")
-		(property "Reference" "#PWR082"
-			(at 187.96 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 187.96 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 187.96 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b8f431e-446d-450d-a779-a5ab99bea750")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2084,27 +2152,25 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b5afd83-3cc6-44a5-9c00-edad1f0a5638")
+		(uuid "3524eda1-7572-46b5-b0a7-f95384d50ea2")
 		(property "Reference" "R44"
-			(at 152.4 105.4099 0)
+			(at 156.21 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1M"
-			(at 152.4 107.9499 0)
+		(property "Value" "100k"
+			(at 153.67 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -2141,7 +2207,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 106.68 0)
+			(at 149.86 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,8 +2217,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805JR-071ML"
-			(at 149.86 106.68 0)
+		(property "MPN" "RC0805JR-07100KL"
+			(at 149.86 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2163,15 +2229,249 @@
 			)
 		)
 		(pin "1"
-			(uuid "0186c1f1-97a1-4f17-9616-065fd36a6c30")
+			(uuid "75718da6-2d3e-4c50-8b01-1b2c83e03c3f")
 		)
 		(pin "2"
-			(uuid "6c502fdf-3384-4250-ae1d-defd473dfa08")
+			(uuid "54fe8e72-1904-4e0e-b5c5-0f2a0c1f9b7d")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aab5dc0-d403-4d8e-87e6-b8078f725787")
+		(property "Reference" "#PWR085"
+			(at 187.96 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 187.96 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "546582da-c2a6-4391-b40e-27d44da3624a")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 134.62 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cd20cf1-9f79-4386-a168-1d9a2b498d9c")
+		(property "Reference" "#PWR082"
+			(at 134.62 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 131.572 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 134.62 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f389bf36-771c-4bca-ad8a-3a23d735c5d5")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 200.66 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f0dc527-7ae0-42d5-a8b6-7ba71c6271cb")
+		(property "Reference" "#PWR086"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 200.66 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 200.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b8f431e-446d-450d-a779-a5ab99bea750")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2188,7 +2488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "791116f1-f97f-4d89-b4a2-2fe04510da98")
-		(property "Reference" "C35"
+		(property "Reference" "C34"
 			(at 116.586 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,7 +2574,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C35")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -2291,7 +2591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79c03169-2b16-47b7-8430-e8dedf6d057a")
-		(property "Reference" "D21"
+		(property "Reference" "D19"
 			(at 175.006 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2675,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D21")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2393,7 +2693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d7868a9-1ba0-4f9b-95e0-11443ea9cd6d")
-		(property "Reference" "D20"
+		(property "Reference" "D18"
 			(at 137.16 103.8224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2779,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D20")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f252661-1704-4d53-b6c3-fff55e7e203a")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR083"
 			(at 134.62 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2557,7 +2857,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR080")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9780c6f8-99cd-4366-831d-31aaa38f57d4")
-		(property "Reference" "C34"
+		(property "Reference" "C33"
 			(at 98.044 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +2960,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C34")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -2678,7 +2978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1a1a1d-f1c5-4ea8-8b2e-70bbcd6b87d8")
-		(property "Reference" "C36"
+		(property "Reference" "C35"
 			(at 124.46 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +3064,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C36")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2782,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ae9ed9-7bed-4a46-9dc1-0b7baabbc600")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 115.57 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2842,7 +3142,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2860,7 +3160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a3c249-eab3-4c61-a856-34cc62b64851")
-		(property "Reference" "D19"
+		(property "Reference" "D17"
 			(at 137.16 93.6624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +3246,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D19")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2964,7 +3264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b794a2-f6e5-46d5-90a4-2024ea8d2a63")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR084"
 			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3024,7 +3324,111 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR081")
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ30CA")
+		(at 187.96 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff1407bc-b899-46ef-b9f0-fa845a4abe34")
+		(property "Reference" "D20"
+			(at 190.5 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ30CA"
+			(at 190.5 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 193.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 187.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+			(at 187.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 187.96 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMAJ30CA"
+			(at 187.96 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3aa4e065-0792-4d20-a483-802da8fee28a")
+		)
+		(pin "1"
+			(uuid "77881737-c5f7-4633-8bbb-bdf8c6e4f646")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
+					(reference "D20")
 					(unit 1)
 				)
 			)

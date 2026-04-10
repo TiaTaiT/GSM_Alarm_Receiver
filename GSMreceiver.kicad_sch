@@ -236,6 +236,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 81.28) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be2dc04-bb75-4816-87d7-c6a5b7473d83")
+	)
+	(wire
+		(pts
 			(xy 130.81 60.96) (xy 163.83 60.96)
 		)
 		(stroke
@@ -949,7 +959,7 @@
 		(at 45.72 191.77 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -1025,7 +1035,7 @@
 		(at 17.78 191.77 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -1101,7 +1111,7 @@
 		(at 31.75 186.69 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -1177,7 +1187,7 @@
 		(at 31.75 191.77 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -1253,7 +1263,7 @@
 		(at 45.72 186.69 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -1329,7 +1339,7 @@
 		(at 17.78 186.69 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -2300,6 +2310,16 @@
 				(justify right)
 			)
 		)
+		(pin "VBUS_SENSING" input
+			(at 97.79 81.28 180)
+			(uuid "ab0efb9b-22ea-41fd-8b82-04a76785bbbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
@@ -2309,8 +2329,8 @@
 		)
 	)
 	(sheet
-		(at 34.29 73.66)
-		(size 15.24 7.62)
+		(at 33.02 73.66)
+		(size 16.51 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2325,7 +2345,7 @@
 		)
 		(uuid "e36e7992-f69d-4591-9880-6ae3c36efe0e")
 		(property "Sheetname" "USB"
-			(at 34.29 72.9484 0)
+			(at 33.02 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2336,7 +2356,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 34.29 81.8646 0)
+			(at 33.02 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2359,6 +2379,16 @@
 		(pin "USB_D-" bidirectional
 			(at 49.53 76.2 0)
 			(uuid "078a0068-a12f-4fc3-8505-651ac976317d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_SENSING" output
+			(at 49.53 81.28 0)
+			(uuid "740395f0-6fa4-46ef-b81f-597877fd0de2")
 			(effects
 				(font
 					(size 1.27 1.27)
