@@ -1760,7 +1760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "092116a8-9d89-4b26-aaa5-eee5b62ffa00")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 134.112 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1846,11 +1846,11 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/0766f5ef-5d4e-4bb3-b73a-d8d6c795d8e3"
-					(reference "R30")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/89f536d0-e840-48e9-a183-c973796594df"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1949,7 +1949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e1668d8-04f9-46b5-9c67-cd28334db87f")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 134.62 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,11 +2035,11 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/0766f5ef-5d4e-4bb3-b73a-d8d6c795d8e3"
-					(reference "R31")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/89f536d0-e840-48e9-a183-c973796594df"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3136,7 +3136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8d82bd2-da1b-47c5-8f6c-3b1da909d6c7")
-		(property "Reference" "R29"
+		(property "Reference" "R25"
 			(at 134.62 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,11 +3222,11 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/0766f5ef-5d4e-4bb3-b73a-d8d6c795d8e3"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/89f536d0-e840-48e9-a183-c973796594df"
-					(reference "R29")
+					(reference "R25")
 					(unit 1)
 				)
 			)

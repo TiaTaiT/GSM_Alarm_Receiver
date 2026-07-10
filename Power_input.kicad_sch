@@ -477,12 +477,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:MBR0580"
+		(symbol "Diode:1N4148WT"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -500,7 +499,7 @@
 					)
 				)
 			)
-			(property "Value" "MBR0580"
+			(property "Value" "1N4148WT"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -510,7 +509,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-523"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -521,7 +520,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -532,7 +531,7 @@
 					)
 				)
 			)
-			(property "Description" "80V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -543,7 +542,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -554,7 +553,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?123*"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -565,10 +564,32 @@
 					)
 				)
 			)
-			(symbol "MBR0580_0_1"
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148WT_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -603,7 +624,7 @@
 					)
 				)
 			)
-			(symbol "MBR0580_1_1"
+			(symbol "1N4148WT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -633,6 +654,344 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:BAS40-04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0.635 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAS40-04"
+				(at -6.35 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at -6.35 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+				(at -3.048 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Schottky, Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAS40-04_0_1"
+				(polyline
+					(pts
+						(xy -4.445 3.81) (xy -4.445 1.27) (xy -2.54 2.54) (xy -4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy -1.905 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 1.905 1.27) (xy 3.81 2.54) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 3.175 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 4.445 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.81) (xy 4.445 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAS40-04_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1431,22 +1790,16 @@
 		(uuid "1a68b56d-468f-4198-8d4c-c30552c8d25b")
 	)
 	(junction
-		(at 120.65 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2318bfde-fead-4a0c-a77c-90834f09b6c1")
-	)
-	(junction
-		(at 149.86 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "963a3437-94e1-43cd-a44f-40bea78a4e38")
-	)
-	(junction
 		(at 187.96 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2ace78e-223b-4971-a93b-46e6c5c95205")
+	)
+	(junction
+		(at 149.86 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be834e2d-42ce-4c06-8308-296ee5f7f4ca")
 	)
 	(junction
 		(at 165.1 76.2)
@@ -1461,10 +1814,10 @@
 		(uuid "dacdcba6-cc8c-459f-a365-b4392601c0da")
 	)
 	(junction
-		(at 134.62 100.33)
+		(at 96.52 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9fd0ccf-8262-43d8-8f10-71b44471ee27")
+		(uuid "e3d7c1af-c2a8-4980-9d07-14d69085a207")
 	)
 	(wire
 		(pts
@@ -1508,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 165.1 100.33)
+			(xy 165.1 76.2) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1538,6 +1891,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4240d659-1573-4aa9-8ccb-389413fddf81")
+	)
+	(wire
+		(pts
 			(xy 165.1 76.2) (xy 173.99 76.2)
 		)
 		(stroke
@@ -1548,13 +1911,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 134.62 100.33)
+			(xy 149.86 101.6) (xy 149.86 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dead4e4-e2a8-4b15-9a02-17172a3c5eb4")
+		(uuid "4bbeb6c5-a1c3-401d-80fb-d5b9dc4ca5b1")
 	)
 	(wire
 		(pts
@@ -1568,13 +1931,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 149.86 100.33)
+			(xy 139.7 121.92) (xy 149.86 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e7fa5d6-43b4-43ff-aa9b-ae4dba376bbf")
+		(uuid "5ba64cc3-0b97-4979-b695-41ef71dbb052")
 	)
 	(wire
 		(pts
@@ -1608,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 165.1 100.33)
+			(xy 162.56 121.92) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1618,23 +1981,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 154.94 100.33)
+			(xy 149.86 121.92) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a1c784c-beeb-411c-93f0-6af72b95dd86")
-	)
-	(wire
-		(pts
-			(xy 134.62 99.06) (xy 134.62 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c5b8424-e090-4f2f-8833-b2b1c5f611a0")
 	)
 	(wire
 		(pts
@@ -1658,7 +2011,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 134.62 111.76)
+			(xy 165.1 91.44) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad67ea31-a8a0-4212-b703-e5928eb8cda7")
+	)
+	(wire
+		(pts
+			(xy 134.62 129.54) (xy 134.62 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1668,17 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 134.62 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b511a39d-2e9b-4e22-8e35-e4929d7fd1e4")
-	)
-	(wire
-		(pts
-			(xy 120.65 100.33) (xy 120.65 102.87)
+			(xy 96.52 101.6) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 100.33) (xy 120.65 100.33)
+			(xy 74.93 101.6) (xy 96.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 110.49) (xy 120.65 111.76)
+			(xy 96.52 111.76) (xy 96.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 110.49) (xy 149.86 111.76)
+			(xy 149.86 132.08) (xy 149.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 149.86 102.87)
+			(xy 149.86 121.92) (xy 149.86 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 90.17) (xy 134.62 91.44)
+			(xy 134.62 111.76) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +2122,7 @@
 	)
 	(hierarchical_label "VBAT_LEVEL"
 		(shape output)
-		(at 74.93 100.33 180)
+		(at 74.93 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1780,7 +2133,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 120.65 111.76 0)
+		(at 96.52 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1790,8 +2143,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f76ee9a-6c16-4b82-aa0e-5e93e2de70b9")
-		(property "Reference" "#PWR081"
-			(at 120.65 118.11 0)
+		(property "Reference" "#PWR080"
+			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +2155,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 120.65 115.57 0)
+			(at 96.52 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1812,7 +2165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 111.76 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +2176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 111.76 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +2187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 120.65 111.76 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +2203,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1858,7 +2211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 100.33 90)
+		(at 158.75 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1868,8 +2221,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b52bb8-d106-4dc3-a2f0-712a091e3104")
-		(property "Reference" "R45"
-			(at 158.75 93.98 90)
+		(property "Reference" "R41"
+			(at 158.75 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1879,7 +2232,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 158.75 96.52 90)
+			(at 158.75 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1889,7 +2242,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 158.75 102.108 90)
+			(at 158.75 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1900,7 +2253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 100.33 0)
+			(at 158.75 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,7 +2264,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 100.33 0)
+			(at 158.75 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +2275,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 158.75 100.33 90)
+			(at 158.75 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,7 +2286,7 @@
 			)
 		)
 		(property "MPN" "RC0805JR-071ML"
-			(at 158.75 100.33 90)
+			(at 158.75 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,7 +2305,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "R45")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2496,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 106.68 0)
+		(at 149.86 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2153,8 +2506,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3524eda1-7572-46b5-b0a7-f95384d50ea2")
-		(property "Reference" "R44"
-			(at 156.21 106.68 90)
+		(property "Reference" "R40"
+			(at 156.21 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2164,7 +2517,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 153.67 106.68 90)
+			(at 153.67 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2174,7 +2527,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 148.082 106.68 90)
+			(at 148.082 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2185,7 +2538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 106.68 0)
+			(at 149.86 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,7 +2549,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 106.68 0)
+			(at 149.86 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +2560,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 106.68 90)
+			(at 149.86 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,7 +2571,7 @@
 			)
 		)
 		(property "MPN" "RC0805JR-07100KL"
-			(at 149.86 106.68 90)
+			(at 149.86 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,7 +2590,240 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "R44")
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAS40-04")
+		(at 137.16 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "356c9daa-e5f8-4e54-b8d5-afa1826d4b8e")
+		(property "Reference" "D17"
+			(at 140.97 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS40-04"
+			(at 147.32 119.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 129.54 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85701/bas40v.pdf"
+			(at 134.62 124.968 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 0.2A Dual Small Signal Schottky Diodes"
+			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 137.16 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BAS40-04-7-F"
+			(at 137.16 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6aea8195-3058-439d-b34e-e6c971f0ea3e")
+		)
+		(pin "1"
+			(uuid "8495a89a-1283-42b3-aae5-7225c6506789")
+		)
+		(pin "3"
+			(uuid "c41620ad-4d2b-485b-bed9-6cbf9987c28e")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 165.1 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ae50cd-2ea6-4177-8881-d8da9ae51dd9")
+		(property "Reference" "D18"
+			(at 167.64 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 167.64 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 169.545 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 165.1 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4148WT-7"
+			(at 165.1 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a22c006-73fc-4c7b-910c-8e7cd023a769")
+		)
+		(pin "1"
+			(uuid "350fd808-607b-420b-8e77-2c0c524569fa")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2323,7 +2909,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 134.62 90.17 0)
+		(at 134.62 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2333,7 +2919,7 @@
 		(dnp no)
 		(uuid "4cd20cf1-9f79-4386-a168-1d9a2b498d9c")
 		(property "Reference" "#PWR082"
-			(at 134.62 93.98 0)
+			(at 134.62 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2930,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 131.572 86.106 0)
+			(at 131.572 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2355,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 90.17 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,7 +2952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 90.17 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +2963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 134.62 90.17 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +3074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "791116f1-f97f-4d89-b4a2-2fe04510da98")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 116.586 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +3160,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2682,112 +3268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0580")
-		(at 134.62 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d7868a9-1ba0-4f9b-95e0-11443ea9cd6d")
-		(property "Reference" "D18"
-			(at 137.16 103.8224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBR0580"
-			(at 137.16 106.3624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 130.175 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 134.62 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "80V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 134.62 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JIANGSU CHANGJING ELECTRONICS TECHNOLOGY CO., LTD"
-			(at 134.62 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MBR0580"
-			(at 134.62 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83607db8-4897-48a0-8ce7-6c05b3c53b88")
-		)
-		(pin "2"
-			(uuid "1e39d7b4-3ae5-4c42-847f-018d8842d223")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
-		(at 134.62 111.76 0)
+		(at 134.62 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2798,7 +3280,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f252661-1704-4d53-b6c3-fff55e7e203a")
 		(property "Reference" "#PWR083"
-			(at 134.62 118.11 0)
+			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +3291,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 134.62 115.57 0)
+			(at 134.62 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2819,7 +3301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 111.76 0)
+			(at 134.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2830,7 +3312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 111.76 0)
+			(at 134.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2841,7 +3323,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 134.62 111.76 0)
+			(at 134.62 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +3450,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 106.68 180)
+		(at 96.52 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2978,8 +3460,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1a1a1d-f1c5-4ea8-8b2e-70bbcd6b87d8")
-		(property "Reference" "C35"
-			(at 124.46 105.4099 0)
+		(property "Reference" "C34"
+			(at 100.33 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2990,7 +3472,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 124.46 107.9499 0)
+			(at 100.33 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3001,7 +3483,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 119.6848 102.87 0)
+			(at 95.5548 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,7 +3494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 106.68 0)
+			(at 96.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3505,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 106.68 0)
+			(at 96.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3516,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 120.65 106.68 0)
+			(at 96.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +3527,7 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R8BB104"
-			(at 120.65 106.68 0)
+			(at 96.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3546,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C35")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ae9ed9-7bed-4a46-9dc1-0b7baabbc600")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 115.57 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3142,111 +3624,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:MBR0580")
-		(at 134.62 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a3c249-eab3-4c61-a856-34cc62b64851")
-		(property "Reference" "D17"
-			(at 137.16 93.6624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBR0580"
-			(at 137.16 96.2024 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 130.175 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "80V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JIANGSU CHANGJING ELECTRONICS TECHNOLOGY CO., LTD"
-			(at 134.62 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MBR0580"
-			(at 134.62 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f011fe42-1ec4-4a67-90e7-3aa94048652e")
-		)
-		(pin "2"
-			(uuid "e8c1e1df-fc68-4881-a1e7-5e702582e729")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D17")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3254,7 +3632,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 149.86 111.76 0)
+		(at 149.86 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3265,7 +3643,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b794a2-f6e5-46d5-90a4-2024ea8d2a63")
 		(property "Reference" "#PWR084"
-			(at 149.86 118.11 0)
+			(at 149.86 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,7 +3654,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 149.86 115.57 0)
+			(at 149.86 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3286,7 +3664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 111.76 0)
+			(at 149.86 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 111.76 0)
+			(at 149.86 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +3686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 149.86 111.76 0)
+			(at 149.86 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

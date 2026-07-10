@@ -833,227 +833,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC848"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC848"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN Small Signal Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC848_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC848_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+4V"
 			(power global)
 			(pin_numbers
@@ -1309,6 +1088,393 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:MUN5233DW1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 10.922 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MUN5233DW1"
+				(at 10.922 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/dtc143zd-d.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Dual Digital NPN Transistor, 4k7/47k, SOT-363"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Digital NPN Transistor, SOT-363"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MUN5233DW1_0_0"
+				(text "4k7"
+					(at 3.048 0.889 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "47k"
+					(at 4.191 -1.524 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "MUN5233DW1_0_1"
+				(polyline
+					(pts
+						(xy 2.921 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.175) (xy 6.985 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -0.381) (xy 5.588 -0.508) (xy 4.572 -0.762) (xy 5.588 -1.016) (xy 4.572 -1.27)
+						(xy 5.588 -1.524) (xy 4.572 -1.778) (xy 5.08 -1.905) (xy 5.08 -2.286) (xy 8.89 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.175) (xy 6.985 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -3.175)
+					(mid 1.9188 0)
+					(end 5.08 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 4.445 0) (xy 4.318 0.508) (xy 4.064 -0.508) (xy 3.81 0.508) (xy 3.556 -0.508)
+						(xy 3.302 0.508) (xy 3.048 -0.508) (xy 2.921 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -0.254) (xy 8.89 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.477 1.524) (xy 6.477 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 6.985 3.175)
+					(mid 10.1462 0)
+					(end 6.985 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.239 -1.143) (xy 7.747 -0.635) (xy 8.255 -1.651) (xy 7.239 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.286) (xy 8.89 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.286) (xy 6.35 0.254) (xy 6.35 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -2.286)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MUN5233DW1_1_1"
+				(pin passive line
+					(at 8.89 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MUN5233DW1_2_1"
+				(pin passive line
+					(at 8.89 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5271,22 +5437,10 @@
 		(uuid "26e5d872-faf8-49d3-98de-3f58221284a5")
 	)
 	(junction
-		(at 193.04 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2759d853-cbc9-49ba-9eda-daf7fceecb61")
-	)
-	(junction
 		(at 186.69 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3014f178-27f4-432b-a214-eb797379aa62")
-	)
-	(junction
-		(at 241.3 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e02805f-d153-4ef9-9ba2-5230d6f62458")
 	)
 	(junction
 		(at 130.81 22.86)
@@ -5295,22 +5449,10 @@
 		(uuid "83d544ec-82e5-4e8f-aa4f-5704cc3f4d02")
 	)
 	(junction
-		(at 228.6 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "889c85c5-bb24-4ed4-aa42-0484e52fd76d")
-	)
-	(junction
 		(at 213.36 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1db84c3-9369-4736-b63c-0b797e399689")
-	)
-	(junction
-		(at 180.34 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edd9c0ca-2719-450c-ab13-aa0babe0ccc7")
 	)
 	(junction
 		(at 109.22 22.86)
@@ -5492,16 +5634,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 132.08) (xy 241.3 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "059a4915-dfd1-4789-9dcb-21a96a9c8f48")
-	)
-	(wire
-		(pts
 			(xy 34.29 82.55) (xy 66.04 82.55)
 		)
 		(stroke
@@ -5509,16 +5641,6 @@
 			(type default)
 		)
 		(uuid "06bdf94a-fa6e-4548-b971-29ab34f2fada")
-	)
-	(wire
-		(pts
-			(xy 193.04 125.73) (xy 193.04 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1c04bc-9000-434c-a846-d766dd835dd9")
 	)
 	(wire
 		(pts
@@ -5542,7 +5664,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 132.08) (xy 241.3 134.62)
+			(xy 241.3 125.73) (xy 241.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5552,13 +5674,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 130.81) (xy 180.34 132.08)
+			(xy 193.04 113.03) (xy 193.04 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15dd2ade-d63d-4b07-84df-d853062ef67a")
+		(uuid "12b7ef37-5dd7-4b26-9b80-03ec2d64a350")
 	)
 	(wire
 		(pts
@@ -5712,7 +5834,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 167.64 120.65)
+			(xy 181.61 120.65) (xy 184.15 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5782,16 +5904,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 120.65) (xy 185.42 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476983a4-1e99-48bb-8845-fd3af8681366")
-	)
-	(wire
-		(pts
 			(xy 115.57 66.04) (xy 148.59 66.04)
 		)
 		(stroke
@@ -5799,16 +5911,6 @@
 			(type default)
 		)
 		(uuid "499fbcea-d864-4bdc-a7e6-1d00345486e2")
-	)
-	(wire
-		(pts
-			(xy 228.6 130.81) (xy 228.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ab69722-0a96-498d-acf6-6eb4a6a63dc7")
 	)
 	(wire
 		(pts
@@ -5822,16 +5924,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 120.65) (xy 233.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5524a7de-919b-43f1-8963-85e452484a36")
-	)
-	(wire
-		(pts
 			(xy 115.57 63.5) (xy 148.59 63.5)
 		)
 		(stroke
@@ -5842,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 120.65) (xy 215.9 120.65)
+			(xy 229.87 120.65) (xy 232.41 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5932,16 +6024,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 120.65) (xy 228.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f44c049-4c03-450e-8e6e-ce7c5becb625")
-	)
-	(wire
-		(pts
 			(xy 55.88 62.23) (xy 55.88 64.77)
 		)
 		(stroke
@@ -6002,16 +6084,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 120.65) (xy 180.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea9e358-3b74-4e79-92a5-79ff343d5f68")
-	)
-	(wire
-		(pts
 			(xy 109.22 22.86) (xy 109.22 24.13)
 		)
 		(stroke
@@ -6042,33 +6114,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 132.08) (xy 193.04 134.62)
+			(xy 193.04 125.73) (xy 193.04 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9df49953-0c0d-4626-8e00-df33bde11ab2")
-	)
-	(wire
-		(pts
-			(xy 193.04 113.03) (xy 193.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10108a0-2ccf-41b1-a55a-966f28030f35")
-	)
-	(wire
-		(pts
-			(xy 180.34 132.08) (xy 193.04 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4afa9f1-d67e-4a17-8f04-08306f645bc9")
 	)
 	(wire
 		(pts
@@ -6089,16 +6141,6 @@
 			(type default)
 		)
 		(uuid "a85b5cb5-80cb-44e2-8174-533817e2e758")
-	)
-	(wire
-		(pts
-			(xy 241.3 125.73) (xy 241.3 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b37d98ef-28e6-4a44-aecd-f89cecbad491")
 	)
 	(wire
 		(pts
@@ -6129,26 +6171,6 @@
 			(type default)
 		)
 		(uuid "c7d2524d-9375-4a04-a4b7-e557e7ff9676")
-	)
-	(wire
-		(pts
-			(xy 180.34 120.65) (xy 180.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbcd45e1-19a4-4acb-8d0a-d37078dd2c0e")
-	)
-	(wire
-		(pts
-			(xy 223.52 120.65) (xy 228.6 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccde46bd-b024-4623-9d5b-1115c7499a50")
 	)
 	(wire
 		(pts
@@ -6271,7 +6293,7 @@
 		(uuid "819bf423-218a-48b8-bf66-aba91becb95a")
 	)
 	(label "STATUS"
-		(at 165.1 120.65 180)
+		(at 181.61 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6281,7 +6303,7 @@
 		(uuid "a08e755a-078f-4ed5-8103-bad655e9094d")
 	)
 	(label "NETLIGHT"
-		(at 213.36 120.65 180)
+		(at 229.87 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6465,108 +6487,6 @@
 			(justify right)
 		)
 		(uuid "ec705d2c-d12a-4cb3-9be0-35e268bb0c23")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00aa37e9-8309-4b56-8239-548c9db6e203")
-		(property "Reference" "R15"
-			(at 171.45 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 171.45 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.45 122.428 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 171.45 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805JR-134K7L"
-			(at 171.45 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4457220-5dbc-4ccb-8d71-1ac9a338ed23")
-		)
-		(pin "2"
-			(uuid "dbad14b9-cfbe-4ea3-9ef0-fcbd030c4ba9")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -6900,110 +6820,6 @@
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1101328b-04b7-4340-860c-1dd40d1ae526")
-		(property "Reference" "R16"
-			(at 182.88 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 182.88 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 178.562 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805JR-0747KL"
-			(at 180.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "585f1825-9f75-497d-8afa-e2d5b636d94b")
-		)
-		(pin "2"
-			(uuid "373688af-df56-4627-9d9c-08c908395a66")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7619,7 +7435,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 193.04 134.62 0)
+		(at 193.04 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7630,7 +7446,7 @@
 		(fields_autoplaced yes)
 		(uuid "51ec92b2-e7ae-4635-8eb1-16802a49830e")
 		(property "Reference" "#PWR022"
-			(at 193.04 140.97 0)
+			(at 193.04 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,7 +7457,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 193.04 138.43 0)
+			(at 193.04 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7651,7 +7467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 134.62 0)
+			(at 193.04 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 134.62 0)
+			(at 193.04 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7673,7 +7489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 193.04 134.62 0)
+			(at 193.04 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +7513,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 241.3 134.62 0)
+		(at 241.3 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7708,7 +7524,7 @@
 		(fields_autoplaced yes)
 		(uuid "586b6df7-67c6-4dde-9f80-0e33606ee29e")
 		(property "Reference" "#PWR026"
-			(at 241.3 140.97 0)
+			(at 241.3 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7535,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 241.3 138.43 0)
+			(at 241.3 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7729,7 +7545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 134.62 0)
+			(at 241.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,7 +7556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 134.62 0)
+			(at 241.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7751,7 +7567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 241.3 134.62 0)
+			(at 241.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8467,116 +8283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC848")
-		(at 190.5 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69dad763-0733-44ef-95d8-9cfc2debbdec")
-		(property "Reference" "Q1"
-			(at 195.58 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC848"
-			(at 195.58 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 195.58 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 190.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
-			(at 190.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia B.V. "
-			(at 190.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BC847"
-			(at 190.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b51dfb0-8dff-4881-a2a1-b83f78e2d4b8")
-		)
-		(pin "3"
-			(uuid "70a1e0cc-484b-4123-aea0-9661c296c6c7")
-		)
-		(pin "2"
-			(uuid "a69d9a99-73d5-4d47-89e7-2de3488a8497")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+4V")
 		(at 193.04 92.71 0)
 		(unit 1)
@@ -8650,6 +8356,113 @@
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
 					(reference "#PWR021")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:MUN5233DW1")
+		(at 184.15 120.65 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a8c7121-f94d-4d4d-aa51-b82e38fd3f18")
+		(property "Reference" "Q1"
+			(at 195.58 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MUN5233DW1"
+			(at 195.58 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/dtc143zd-d.pdf"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Dual Digital NPN Transistor, 4k7/47k, SOT-363"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2884018f-3919-484e-85a9-075bfda65ca4")
+		)
+		(pin "3"
+			(uuid "65483bd3-7b35-4f03-8883-be7d155940f6")
+		)
+		(pin "4"
+			(uuid "19f79ab0-5d42-474d-904a-4642b21692b7")
+		)
+		(pin "1"
+			(uuid "4f9fa7b7-8f2c-431f-8a71-80e091cdb625")
+		)
+		(pin "5"
+			(uuid "3d8cf45a-a43f-4af3-866b-769ec04b9a2d")
+		)
+		(pin "2"
+			(uuid "f0892cbf-08d8-4950-8e57-c0d09503b3da")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
+					(reference "Q1")
+					(unit 2)
 				)
 			)
 		)
@@ -8781,7 +8594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99636b61-dc39-4e05-9f49-12d2dc6c9d0d")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 243.84 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8867,7 +8680,114 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R21")
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:MUN5233DW1")
+		(at 232.41 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c9ae568-cffa-4e72-9982-9ceb02126481")
+		(property "Reference" "Q1"
+			(at 243.84 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MUN5233DW1"
+			(at 243.84 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 232.41 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/dtc143zd-d.pdf"
+			(at 232.41 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Dual Digital NPN Transistor, 4k7/47k, SOT-363"
+			(at 232.41 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 232.41 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "1e6ab43a-4b2c-4f88-92a5-d6d85f904738")
+		)
+		(pin "3"
+			(uuid "566e868c-a75a-4941-86f2-dd6a0334eade")
+		)
+		(pin "4"
+			(uuid "6857d328-4138-447b-8ff2-8d3f6a95ece7")
+		)
+		(pin "1"
+			(uuid "5777f321-c69a-4f6b-83e0-edde9228c7d7")
+		)
+		(pin "5"
+			(uuid "94ce8a31-7301-41fb-b091-12bfc9a0145b")
+		)
+		(pin "2"
+			(uuid "91bf5568-2daf-4480-b973-4e669099ae8e")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9222,7 +9142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b16b04ad-207f-4fb4-937e-67ecc31dbc42")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 202.692 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9308,117 +9228,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC848")
-		(at 238.76 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2ebd072-b147-4b3f-82d3-48703d740c78")
-		(property "Reference" "Q2"
-			(at 243.84 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC848"
-			(at 243.84 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 243.84 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 238.76 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
-			(at 238.76 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia B.V. "
-			(at 238.76 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BC847"
-			(at 238.76 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ccf459b9-faad-4dc1-a553-586ed84fd734")
-		)
-		(pin "3"
-			(uuid "a9a76b98-661b-486d-a92d-63932974c624")
-		)
-		(pin "2"
-			(uuid "628506e2-f4b4-4caf-a5bd-193950b63b37")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "Q2")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9529,108 +9339,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cad54f6c-b766-4fc1-ac6b-6b9a306c439b")
-		(property "Reference" "R19"
-			(at 219.71 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 219.71 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 219.71 122.428 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 219.71 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 219.71 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805JR-134K7L"
-			(at 219.71 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "720f7317-ee51-4c44-b5cd-79baa762d5ee")
-		)
-		(pin "2"
-			(uuid "be49acd3-ba99-40c8-8777-6abe3711501e")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 193.04 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -9641,7 +9349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bdfe87-abf6-4fa8-901b-c9d1ce3595b7")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 195.58 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9727,7 +9435,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10089,110 +9797,6 @@
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 228.6 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff75ff82-22a3-4d71-b550-259325ddb25d")
-		(property "Reference" "R20"
-			(at 231.14 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 231.14 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.822 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805JR-0747KL"
-			(at 228.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf427910-8029-4e21-927e-b6bf71bfbc73")
-		)
-		(pin "2"
-			(uuid "d2c2ba24-82bd-401e-b2bb-4832c56d8d6d")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "R20")
 					(unit 1)
 				)
 			)

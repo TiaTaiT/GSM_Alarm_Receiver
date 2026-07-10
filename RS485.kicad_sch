@@ -2442,7 +2442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2676e1ae-a474-43ab-86aa-73c45e357a19")
-		(property "Reference" "R26"
+		(property "Reference" "R22"
 			(at 154.686 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2526,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/fe2eac04-096c-41cd-9d48-0aafc9873100"
-					(reference "R26")
+					(reference "R22")
 					(unit 1)
 				)
 			)
