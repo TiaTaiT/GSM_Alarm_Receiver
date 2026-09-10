@@ -160,183 +160,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -989,491 +812,413 @@
 		)
 	)
 	(junction
-		(at 187.96 74.93)
+		(at 195.58 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "477e7f26-db16-4a07-8086-b97cd65c62b6")
+		(uuid "0234705f-49a5-415f-b246-85160f0d4fc7")
 	)
 	(junction
-		(at 177.8 90.17)
+		(at 203.2 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "546d4db4-5059-4d04-9f18-763d2c732a48")
+		(uuid "13034d15-ea0d-4bcd-86c9-613109f8c9bd")
 	)
 	(junction
-		(at 177.8 74.93)
+		(at 158.75 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58b57e7f-cf58-4a7a-a211-47aca0ec5133")
+		(uuid "3d9732d9-61a8-46af-a09c-850531bf7bd2")
 	)
 	(junction
-		(at 196.85 74.93)
+		(at 175.26 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f61bed2-3154-4d25-b77d-2775d9fee539")
+		(uuid "42fa7007-cd2c-4226-87bd-b91398154723")
 	)
 	(junction
-		(at 204.47 74.93)
+		(at 175.26 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac447c91-494c-4651-bbf3-a8b977c5c86b")
+		(uuid "8c8330a1-7fa5-4588-bc37-bed801a047ba")
 	)
 	(junction
-		(at 123.19 85.09)
+		(at 120.65 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c942e439-2562-4e18-8cc6-d1b02f784dc1")
+		(uuid "dbaafa56-f476-489c-b76e-477176d9395c")
 	)
 	(junction
-		(at 161.29 74.93)
+		(at 185.42 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "daaf1dcf-aa35-4318-8342-f685f4a7c190")
+		(uuid "f6bb7fc0-f3d9-4f20-b174-eeea9fd24704")
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 204.47 74.93)
+			(xy 185.42 74.93) (xy 195.58 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "053bda76-7cb2-4e24-8712-7be96ed265cc")
+		(uuid "01bde80d-0732-4297-9bd3-9975990766b6")
 	)
 	(wire
 		(pts
-			(xy 172.72 74.93) (xy 177.8 74.93)
+			(xy 151.13 85.09) (xy 151.13 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "162939b7-39aa-436c-8b8c-866be6ac00ca")
+		(uuid "134cbb33-ea75-4b91-bd83-bbd295598419")
 	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 129.54 107.95)
+			(xy 151.13 90.17) (xy 175.26 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a109cf0-f9a6-4e8b-88f1-fd5ba332f398")
+		(uuid "1bd8a702-fc21-4d6d-8809-5184dbdb8c37")
 	)
 	(wire
 		(pts
-			(xy 143.51 95.25) (xy 143.51 104.14)
+			(xy 203.2 74.93) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fa74844-9044-4ffb-aef8-374dd0b47ed9")
+		(uuid "287ad4d2-b8d2-485e-8e3b-56ec2104872e")
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 204.47 104.14)
+			(xy 158.75 74.93) (xy 162.56 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ed99861-5760-4e65-b1f5-cbecb588a26c")
+		(uuid "2bf36456-66b0-46d9-ac12-acd5621f2048")
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 204.47 74.93)
+			(xy 175.26 74.93) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f17206c-ecb9-4199-8c17-45373014e573")
+		(uuid "2c02944a-8149-466f-8e25-54498d79998c")
 	)
 	(wire
 		(pts
-			(xy 177.8 101.6) (xy 177.8 104.14)
+			(xy 185.42 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fd6cb50-5a20-4310-912d-75ad04f475ee")
+		(uuid "36fcd2d1-0751-4595-a14c-229e94d061e0")
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 177.8 90.17)
+			(xy 158.75 87.63) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "412d9ac9-ecad-4dae-87b2-41c777e8e2ba")
+		(uuid "3a733705-7ef9-4572-b6d2-aa25067c496e")
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 161.29 78.74)
+			(xy 203.2 93.98) (xy 203.2 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4444e1c0-a95a-4fe5-ad4d-1c1940c16860")
+		(uuid "48c13bea-7c06-4249-a2e2-a0babe7f74d7")
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 133.35 85.09)
+			(xy 151.13 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4455e370-3bc0-47c2-9761-9f37962f20aa")
+		(uuid "566e0c80-f334-4c5b-9774-54929adf9155")
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 161.29 86.36)
+			(xy 185.42 78.74) (xy 185.42 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4567add9-b270-442f-b132-4ca698caa15c")
+		(uuid "7056d3fe-8670-4586-b2e6-252ec7ffb8d5")
 	)
 	(wire
 		(pts
-			(xy 129.54 107.95) (xy 129.54 90.17)
+			(xy 175.26 101.6) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5057c317-3b79-4f06-9e0b-0eee55d87390")
+		(uuid "707a1014-1e0f-411d-9768-9d8194068ae0")
 	)
 	(wire
 		(pts
-			(xy 153.67 85.09) (xy 153.67 74.93)
+			(xy 185.42 90.17) (xy 175.26 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54d60ad6-0af1-431b-9225-dcaaf33c4b75")
+		(uuid "7da3f72d-fdc0-4861-b768-bf4c94d79cc1")
 	)
 	(wire
 		(pts
-			(xy 187.96 90.17) (xy 177.8 90.17)
+			(xy 175.26 86.36) (xy 175.26 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d3ba135-f738-4d1f-8735-9a14964f7564")
+		(uuid "83aabaa3-160a-40ed-bb56-4c1ee9e5fa4e")
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 161.29 74.93)
+			(xy 203.2 74.93) (xy 214.63 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6687c5a9-f387-4454-abe9-34f9f8a8f65b")
+		(uuid "8d0f6c61-4b00-47d6-b61f-48ddb09d69ad")
 	)
 	(wire
 		(pts
-			(xy 123.19 95.25) (xy 123.19 97.79)
+			(xy 120.65 85.09) (xy 120.65 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8258f9e0-ea62-4051-8a20-9d350a94a669")
+		(uuid "8fbee20b-ea5e-4cc0-a234-8e5b30e93180")
 	)
 	(wire
 		(pts
-			(xy 177.8 74.93) (xy 177.8 78.74)
+			(xy 175.26 90.17) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8346652c-1eca-4e79-bb2d-ee4d686c4cd9")
+		(uuid "96094bb0-df7b-4105-8fa3-89861d25e2d3")
 	)
 	(wire
 		(pts
-			(xy 196.85 93.98) (xy 196.85 104.14)
+			(xy 120.65 85.09) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86959abb-9f7a-4f75-a08c-973712b211ab")
+		(uuid "9b5bc38a-8a6f-4078-91ba-cee5183fddc8")
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 177.8 90.17)
+			(xy 151.13 87.63) (xy 158.75 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94a32413-0a93-4b84-b746-be8e06ae87e8")
+		(uuid "b817611c-2aa3-46a3-a670-4803cc9f0570")
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 177.8 74.93)
+			(xy 140.97 95.25) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94c35110-eb42-41d8-898f-45157ece2861")
+		(uuid "c1985575-48a1-4b52-beea-d3f448250c8e")
 	)
 	(wire
 		(pts
-			(xy 177.8 90.17) (xy 177.8 93.98)
+			(xy 195.58 93.98) (xy 195.58 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "952e8f63-72e0-4b60-aebb-19ff9e84a7d2")
+		(uuid "c325c2d8-fb3d-43e9-a7c4-41424120197a")
 	)
 	(wire
 		(pts
-			(xy 129.54 90.17) (xy 133.35 90.17)
+			(xy 92.71 85.09) (xy 120.65 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1003c48-358c-4475-beec-77c1b9153888")
+		(uuid "c3a5c93e-4c77-45a0-89f2-385078628ce8")
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 196.85 86.36)
+			(xy 195.58 74.93) (xy 203.2 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7a58f4f-fb80-46d8-88c4-251e323ade4f")
+		(uuid "cb00416c-cb40-42d6-a81a-3bfd1af8e106")
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 165.1 74.93)
+			(xy 158.75 74.93) (xy 158.75 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd63b358-a619-4b5c-8cbf-b24b309f38cf")
+		(uuid "d6c45780-5c4b-4cc8-b2c3-ae3b486daabb")
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 123.19 85.09)
+			(xy 127 107.95) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0b3b56d-eb0f-4388-8848-a8b6d14bd4f7")
+		(uuid "e11a2640-e2bd-4b23-9b56-f9dfdc9a8369")
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 123.19 87.63)
+			(xy 92.71 107.95) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c818859a-202e-461d-8009-092f319c13c6")
+		(uuid "e596a37b-d244-4ed8-b98c-386f333a2180")
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 187.96 74.93)
+			(xy 120.65 95.25) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbc795ae-b4af-43f3-bcc4-a26e9cab7f4c")
+		(uuid "e790c8ea-8937-49d0-a1b2-959fd24c2e31")
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 196.85 74.93)
+			(xy 170.18 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5ee7642-6f88-4478-a39f-ebe771bada68")
+		(uuid "ebfde3b5-5c7a-46d8-9fd5-9ed3106fba8a")
 	)
 	(wire
 		(pts
-			(xy 204.47 74.93) (xy 210.82 74.93)
+			(xy 127 90.17) (xy 130.81 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e86e9f59-2ba7-4700-845e-482569631fb2")
+		(uuid "f2a7c7c0-2df9-4fdb-91f2-b9cfc189e795")
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 161.29 87.63)
+			(xy 185.42 86.36) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea7c4a12-0289-443f-9f43-3d77e0d80745")
+		(uuid "f4d01a2e-4c3a-4fb7-9976-ca0a8c6c736b")
 	)
 	(wire
 		(pts
-			(xy 187.96 86.36) (xy 187.96 90.17)
+			(xy 195.58 86.36) (xy 195.58 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d27ddc-4a49-45d0-945b-b1102879eb24")
-	)
-	(label "4V-FB"
-		(at 166.37 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ed408bc-041c-4798-9cfe-41519af93104")
+		(uuid "f5e0c8ce-e4d6-4774-a071-aa64e2042861")
 	)
 	(label "4V-SW"
-		(at 153.67 74.93 0)
+		(at 151.13 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c535c58b-67c2-42d3-8259-50f7e55fc3f9")
+		(uuid "79e7d2b1-f986-4328-af71-278f09082290")
+	)
+	(label "4V-FB"
+		(at 163.83 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8066c3a2-cf90-4a2f-a4b7-70a41b5d7861")
 	)
 	(hierarchical_label "ENABLE"
 		(shape input)
-		(at 95.25 107.95 180)
+		(at 92.71 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "03abd863-6918-4ae4-bd55-53a9d6ee0568")
-	)
-	(hierarchical_label "VBAT_IN"
-		(shape input)
-		(at 95.25 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6717df17-1df5-404b-a410-26984b9515b2")
+		(uuid "3e4ddf87-7987-405b-a651-dbb8f5bfe258")
 	)
 	(hierarchical_label "+4V"
 		(shape input)
-		(at 210.82 74.93 0)
+		(at 214.63 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b9e08f5f-5346-46be-8e5e-b7eb61cc78a2")
+		(uuid "71f03636-4f8b-45ed-8516-651ad80c916a")
 	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 204.47 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "088e7f5f-d8da-4d5f-8fa8-5a34368b65b7")
-		(property "Reference" "#PWR013"
-			(at 204.47 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "VBAT_IN"
+		(shape input)
+		(at 92.71 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GNDD"
-			(at 204.47 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 204.47 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b47d8fa2-b65c-4aca-bc4c-ca7b8a8b44d8")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fe3a63e5-bd09-494e-b3f5-78a1aa3dc533")
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 187.96 82.55 180)
+		(at 158.75 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1481,211 +1226,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "103c5bce-ca7d-4013-8112-8049a725d5bc")
-		(property "Reference" "C7"
-			(at 185.166 85.598 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF"
-			(at 185.166 78.486 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 186.9948 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 187.96 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805JRNPO9BN101"
-			(at 187.96 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b024d3da-5f33-47ba-aaa7-100c6285c534")
-		)
-		(pin "2"
-			(uuid "e8cf3f2b-1992-4a62-a7ad-0dbcddfe61a4")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "108ad971-16e6-4814-90b9-096ff7bb5612")
-		(property "Reference" "R10"
-			(at 175.514 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51k"
-			(at 180.086 97.536 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 179.578 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 177.8 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805FR-0751KL"
-			(at 177.8 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "832ea631-e6da-4e66-8e3b-18c2c0730df0")
-		)
-		(pin "2"
-			(uuid "67111093-be95-4b89-ade8-76bf9b62364f")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 196.85 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1dc92819-c5c1-40cf-8c54-ca58f6f4c5f7")
-		(property "Reference" "C8"
-			(at 194.056 93.218 90)
+		(uuid "06a08014-01e7-4ce9-9df3-f2ee754808d0")
+		(property "Reference" "C6"
+			(at 155.956 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1695,7 +1238,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 194.056 86.106 90)
+			(at 155.956 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1705,7 +1248,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 195.8848 86.36 0)
+			(at 157.7848 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1716,7 +1259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 90.17 0)
+			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +1270,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 90.17 0)
+			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1738,7 +1281,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 196.85 90.17 90)
+			(at 158.75 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1749,7 +1292,7 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R8BB104"
-			(at 196.85 90.17 90)
+			(at 158.75 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1760,15 +1303,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c6e461b-9cea-481b-9d0e-85c17d965d23")
+			(uuid "8e198384-0433-4de1-87d6-7d8b7d5c07ec")
 		)
 		(pin "2"
-			(uuid "1fd79055-e00c-4004-9d2d-fe6bd2df4ba0")
+			(uuid "4f7cb53c-49db-4753-b36e-186500929f4b")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1319,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 143.51 104.14 0)
+		(at 140.97 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1785,9 +1328,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43c6e9f1-1b24-44e2-b194-3d0946b90fe9")
+		(uuid "08810c5f-0aa8-4f71-bd7a-6a0164b72dd9")
 		(property "Reference" "#PWR010"
-			(at 143.51 110.49 0)
+			(at 140.97 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,7 +1341,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 143.51 107.95 0)
+			(at 140.97 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1808,7 +1351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 104.14 0)
+			(at 140.97 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,7 +1362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 104.14 0)
+			(at 140.97 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1830,7 +1373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 143.51 104.14 0)
+			(at 140.97 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +1384,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df182ab3-888a-4ede-9fdc-22a89c057654")
+			(uuid "e4555a21-fa42-4b05-81c9-b7cb9240f92a")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -1853,8 +1396,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63200WU")
-		(at 143.51 87.63 0)
+		(lib_id "Device:C")
+		(at 203.2 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1862,248 +1405,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63324245-5360-45a8-9b61-80f74b06f83b")
-		(property "Reference" "U6"
-			(at 143.51 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63200WU"
-			(at 143.51 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 143.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AP63200WU"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "eb7db111-a7a4-42eb-a831-ba66f535fd70")
-		)
-		(pin "4"
-			(uuid "cab97ff1-bb73-45a2-8ee6-174818e313e2")
-		)
-		(pin "6"
-			(uuid "acbfd5e4-9268-477f-92e3-2cc773ba0e68")
-		)
-		(pin "1"
-			(uuid "e4172f6c-e430-48e7-a858-de9dcddebcd0")
-		)
-		(pin "2"
-			(uuid "4e7155d2-1c8d-4561-9862-c9f56ccde505")
-		)
-		(pin "5"
-			(uuid "0f604d4e-0ce1-4a8c-a383-760beef14b94")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 168.91 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65ce3e24-844e-4533-a4d3-59e6d09b299a")
-		(property "Reference" "L2"
-			(at 168.91 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSAB0420-100M"
-			(at 168.91 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CSAB0420-4.4x4.4mm"
-			(at 168.91 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 168.91 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CODACA ELECTRONIC CO., LTD"
-			(at 168.91 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CSAB0420-100M"
-			(at 168.91 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9d43e84f-91d2-44b9-9b83-4fe39f807a11")
-		)
-		(pin "1"
-			(uuid "96d99d08-8c45-4490-b773-8ef7ee3e6d8c")
-		)
-		(instances
-			(project "GSMreceiver"
-				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 204.47 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b66cef1-71bd-4de0-91a5-5903946cdc7d")
+		(uuid "6a0c43f0-c140-4612-a6b7-75d6e86b34fe")
 		(property "Reference" "C9"
-			(at 208.28 88.0109 0)
+			(at 199.39 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1000uF x 10V"
-			(at 208.28 90.5509 0)
+		(property "Value" "22uF"
+			(at 198.628 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
-			(at 205.4352 93.98 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 202.2348 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2114,7 +1438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 90.17 0)
+			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2124,8 +1448,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 204.47 90.17 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,8 +1459,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JB Capacitors"
-			(at 204.47 90.17 0)
+		(property "Manufacturer" "YAGEO"
+			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,8 +1470,8 @@
 				)
 			)
 		)
-		(property "MPN" "JCK1A102M100105"
-			(at 204.47 90.17 0)
+		(property "MPN" "CC0805MKX5R8BB226"
+			(at 203.2 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,10 +1482,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d18d259-f241-463f-bc97-2eb92e70e219")
+			(uuid "26ce20ce-9413-47bd-a6ec-288e4b7b6476")
 		)
 		(pin "2"
-			(uuid "a75dd8da-9201-4d3c-96b3-bf4f3cbd17ce")
+			(uuid "8d65becc-1c3f-4402-949c-bca3768027b5")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -2174,7 +1498,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 91.44 180)
+		(at 195.58 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2182,9 +1506,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7a95ed4a-88d9-4ae4-bd2e-27f0eeeeae6c")
-		(property "Reference" "C5"
-			(at 119.38 88.392 0)
+		(uuid "7e1fefd3-ca0c-4785-a56a-97ad168da2c0")
+		(property "Reference" "C8"
+			(at 191.77 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2193,8 +1517,8 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
-			(at 118.618 94.488 0)
+		(property "Value" "22uF"
+			(at 191.008 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2204,7 +1528,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 122.2248 87.63 0)
+			(at 194.6148 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,7 +1539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 91.44 0)
+			(at 195.58 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2226,7 +1550,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 91.44 0)
+			(at 195.58 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,7 +1561,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 123.19 91.44 0)
+			(at 195.58 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,8 +1571,8 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KKX5R9BB106"
-			(at 123.19 91.44 0)
+		(property "MPN" "CC0805MKX5R8BB226"
+			(at 195.58 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,10 +1583,189 @@
 			)
 		)
 		(pin "1"
-			(uuid "affddadd-43a3-442d-8018-add346b5a042")
+			(uuid "079664ee-6518-4f0e-89c7-24af9bf05655")
 		)
 		(pin "2"
-			(uuid "44e3f4e0-26b7-4698-a504-c36455c011f8")
+			(uuid "68ee165b-4a75-4b4b-b75e-e5eabfaaee85")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 175.26 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81190620-d95e-478b-90df-e6268aaa9e35")
+		(property "Reference" "#PWR011"
+			(at 175.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 175.26 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a6eff79-33d0-4e41-b15a-2113bf6bc382")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d132317-907f-45e3-b387-c70be08ce958")
+		(property "Reference" "C5"
+			(at 116.84 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 116.078 94.488 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.6848 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX5R9BB106"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc5d0b1e-e6fc-433b-b0ed-23f37d545a9d")
+		)
+		(pin "2"
+			(uuid "0e79df57-ac1e-4d67-9561-832e4645586d")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -2274,8 +1777,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 196.85 104.14 0)
+		(lib_id "Device:L")
+		(at 166.37 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2284,10 +1787,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b30f69e-0d0f-45ed-b51b-13e712f66235")
-		(property "Reference" "#PWR012"
-			(at 196.85 110.49 0)
-			(hide yes)
+		(uuid "9ad751d1-9eee-4043-9332-b4839cc8aa20")
+		(property "Reference" "L2"
+			(at 166.37 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2296,8 +1798,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 196.85 107.95 0)
+		(property "Value" "CSAB0420-100M"
+			(at 166.37 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2306,8 +1808,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 104.14 0)
+		(property "Footprint" "footprints:CSAB0420-4.4x4.4mm"
+			(at 166.37 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 104.14 0)
+			(at 166.37 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2328,8 +1830,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 196.85 104.14 0)
+		(property "Description" "Inductor"
+			(at 166.37 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,14 +1840,39 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" "CODACA ELECTRONIC CO., LTD"
+			(at 166.37 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CSAB0420-100M"
+			(at 166.37 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4bfbadb0-0213-4717-988b-3f0f29acd212")
 		)
 		(pin "1"
-			(uuid "66104c96-17c7-4191-94a2-4696368b2e3f")
+			(uuid "53022af9-7b3d-4fdc-a969-a85dc26d7d30")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "#PWR012")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2353,7 +1880,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 82.55 180)
+		(at 185.42 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2361,9 +1888,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "86883c5c-4862-483d-93c8-a6f5b7ee1ccc")
-		(property "Reference" "C6"
-			(at 158.496 85.598 90)
+		(uuid "9d2e35ec-b4b2-4e97-ad4c-ce1e1892a214")
+		(property "Reference" "C7"
+			(at 182.626 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2372,8 +1899,8 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 158.496 78.486 90)
+		(property "Value" "100pF"
+			(at 182.626 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2383,7 +1910,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 160.3248 78.74 0)
+			(at 184.4548 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2394,7 +1921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 82.55 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2405,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 82.55 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,7 +1943,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 161.29 82.55 90)
+			(at 185.42 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,8 +1953,8 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KRX7R8BB104"
-			(at 161.29 82.55 90)
+		(property "MPN" "CC0805JRNPO9BN101"
+			(at 185.42 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,23 +1965,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "57538aaf-34f7-46c7-90e0-430fbbca119d")
+			(uuid "9b680977-eb66-4feb-871a-fd2059b45620")
 		)
 		(pin "2"
-			(uuid "1598420f-aedd-4f24-9d29-f02923f65ccb")
+			(uuid "74675580-55d5-474f-9cd2-fa20bbf9181e")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 177.8 82.55 180)
+		(lib_id "Regulator_Switching:AP63200WU")
+		(at 140.97 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2462,9 +1989,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b225ea71-fdcf-45bb-85d8-59185b6c9a20")
-		(property "Reference" "R9"
-			(at 175.514 82.55 90)
+		(fields_autoplaced yes)
+		(uuid "a6b07f27-2781-44c4-8e2e-733b2bbc4cab")
+		(property "Reference" "U6"
+			(at 140.97 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2473,8 +2001,8 @@
 				)
 			)
 		)
-		(property "Value" "205k"
-			(at 180.086 82.296 90)
+		(property "Value" "AP63200WU"
+			(at 140.97 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2483,8 +2011,123 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 179.578 82.55 90)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP63200WU"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a7c1a692-a0da-4cca-9a91-ac194d1c6c98")
+		)
+		(pin "4"
+			(uuid "920bdb46-2949-482d-bc3c-2d4e07b65c99")
+		)
+		(pin "6"
+			(uuid "c909a7ac-c238-4b53-93e1-9e2ea86dffcf")
+		)
+		(pin "1"
+			(uuid "85494d63-533e-41b7-912a-30c343eec2f0")
+		)
+		(pin "2"
+			(uuid "ac74eea5-4885-45e1-9992-1c9be2aa5cfd")
+		)
+		(pin "5"
+			(uuid "cb316cc5-3406-4101-85d5-622fc89d5f5b")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 120.65 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd15dde9-a8e8-4d72-adb9-bb4f85c4c25f")
+		(property "Reference" "#PWR09"
+			(at 120.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 120.65 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2495,7 +2138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 82.55 0)
+			(at 120.65 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,30 +2148,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 177.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 177.8 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0805FR-07205KL"
-			(at 177.8 82.55 90)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 120.65 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,10 +2160,108 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc485b3f-1003-4f70-9b03-168d6e65a1f0")
+			(uuid "fac51ef8-97c0-458e-a0ad-45d4fa706c4a")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e344f5c1-6412-433e-872a-66a74e9aa7cf")
+		(property "Reference" "R9"
+			(at 172.974 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "205k"
+			(at 177.546 82.296 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.038 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07205KL"
+			(at 175.26 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb3fd16d-815e-478f-b19d-d024d46f1ab3")
 		)
 		(pin "2"
-			(uuid "47a35331-493b-47ce-a2ad-7d5d9b441301")
+			(uuid "1422ba29-b329-490a-8d2f-f77fba7c88be")
 		)
 		(instances
 			(project "GSMreceiver"
@@ -2555,7 +2274,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 123.19 97.79 0)
+		(at 203.2 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2564,9 +2283,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cbc6a686-0c11-4f4e-bbfc-27d6d61816e1")
-		(property "Reference" "#PWR09"
-			(at 123.19 104.14 0)
+		(uuid "f9480a99-cb4a-4e8b-b0e2-f33865856576")
+		(property "Reference" "#PWR013"
+			(at 203.2 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,7 +2296,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 123.19 101.6 0)
+			(at 203.2 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2587,7 +2306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 97.79 0)
+			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2598,7 +2317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 97.79 0)
+			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,7 +2328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 123.19 97.79 0)
+			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2620,12 +2339,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5af32263-f20b-4d43-ab9e-9b1b81db1b8e")
+			(uuid "c9b61977-acb3-4afe-a1ef-a65ec8740248")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2352,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 177.8 104.14 0)
+		(at 195.58 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2642,9 +2361,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8debb2d-4f57-4e70-a7c4-7e72e1271872")
-		(property "Reference" "#PWR011"
-			(at 177.8 110.49 0)
+		(uuid "fdb86999-77b4-49a8-946a-68ee315f4b9a")
+		(property "Reference" "#PWR012"
+			(at 195.58 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +2374,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 177.8 107.95 0)
+			(at 195.58 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2665,7 +2384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2687,7 +2406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 177.8 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2698,12 +2417,113 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ac7558c-6096-4013-ae24-6fe621d1ab0d")
+			(uuid "355c2860-e333-41a0-b774-8dce3580962e")
 		)
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
-					(reference "#PWR011")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe498d62-efa9-4a5b-8c45-31a15ac57383")
+		(property "Reference" "R10"
+			(at 172.974 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51k"
+			(at 177.546 97.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.038 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0751KL"
+			(at 175.26 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfb41ba1-9c45-405d-9399-31bb5de363c2")
+		)
+		(pin "2"
+			(uuid "2985c872-0aea-40e9-a7b9-f6faea68cca3")
+		)
+		(instances
+			(project "GSMreceiver"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a/964271fa-514f-483e-a37b-f0a7ee41d4f8"
+					(reference "R10")
 					(unit 1)
 				)
 			)
