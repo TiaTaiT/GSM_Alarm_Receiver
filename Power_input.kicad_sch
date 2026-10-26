@@ -2143,7 +2143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f76ee9a-6c16-4b82-aa0e-5e93e2de70b9")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR080"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR084")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b52bb8-d106-4dc3-a2f0-712a091e3104")
-		(property "Reference" "R45"
+		(property "Reference" "R41"
 			(at 158.75 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2305,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "R45")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20b89864-9a18-48c0-aa23-6bdb9440de92")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 213.36 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +2410,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e5076b-5e7d-4d11-a537-68998026d2cb")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR079"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2488,7 +2488,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR083")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2506,7 +2506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3524eda1-7572-46b5-b0a7-f95384d50ea2")
-		(property "Reference" "R44"
+		(property "Reference" "R40"
 			(at 156.21 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2590,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "R44")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2607,7 +2607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "356c9daa-e5f8-4e54-b8d5-afa1826d4b8e")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 140.97 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,7 +2697,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2715,7 +2715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ae50cd-2ea6-4177-8881-d8da9ae51dd9")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 167.64 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,7 +2823,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2841,7 +2841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aab5dc0-d403-4d8e-87e6-b8078f725787")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR085"
 			(at 187.96 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2901,7 +2901,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR089")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2918,7 +2918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cd20cf1-9f79-4386-a168-1d9a2b498d9c")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR082"
 			(at 134.62 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2979,7 +2979,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR086")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2997,7 +2997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f0dc527-7ae0-42d5-a8b6-7ba71c6271cb")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR086"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3057,7 +3057,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR090")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "791116f1-f97f-4d89-b4a2-2fe04510da98")
-		(property "Reference" "C41"
+		(property "Reference" "C35"
 			(at 116.586 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3160,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C41")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -3177,7 +3177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79c03169-2b16-47b7-8430-e8dedf6d057a")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 175.006 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3261,7 +3261,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f252661-1704-4d53-b6c3-fff55e7e203a")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR083"
 			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3339,7 +3339,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR087")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9780c6f8-99cd-4366-831d-31aaa38f57d4")
-		(property "Reference" "C39"
+		(property "Reference" "C33"
 			(at 98.044 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,7 +3442,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C39")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1a1a1d-f1c5-4ea8-8b2e-70bbcd6b87d8")
-		(property "Reference" "C40"
+		(property "Reference" "C34"
 			(at 100.33 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "C40")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ae9ed9-7bed-4a46-9dc1-0b7baabbc600")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR081"
 			(at 115.57 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3624,7 +3624,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR085")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b794a2-f6e5-46d5-90a4-2024ea8d2a63")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR084"
 			(at 149.86 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3702,7 +3702,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "#PWR088")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3720,7 +3720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1407bc-b899-46ef-b9f0-fa845a4abe34")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 190.5 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,7 +3806,7 @@
 		(instances
 			(project "GSMreceiver"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/22f2c349-a150-4465-81d9-a52b1080446a"
-					(reference "D19")
+					(reference "D20")
 					(unit 1)
 				)
 			)
